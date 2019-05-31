@@ -42,7 +42,8 @@ with open('list_of_papers.csv', 'w', newline='') as writeFile:
              
                 # if we found the record we are looking for
                 if (idnum == row['id']):
-                    if ('Adjunct' in row['booktitle'] or 'Extended' in row['booktitle'] or 'Workshop' in row['booktitle']):
+                    if ('Adjunct' in row['booktitle'] or 'Extended' in row['booktitle']or 'Workshop' in row['booktitle']
+                        or 'Companion' in row['booktitle'] or 'person tracking' in row['keywords']):
                         break;
                     else:
                     # write out the record
@@ -73,7 +74,8 @@ with open('deleted_articles.csv', 'w', newline='') as writeDeletedFiles:
     with open('includes adjunct, extended, workshop.csv', newline='') as csvfile:
         reader = csv.DictReader(csvfile)
         for row in reader:
-            if ('Adjunct' in row['booktitle'] or 'Extended' in row['booktitle'] or 'Workshop' in row['booktitle']):
+            if ('Adjunct' in row['booktitle'] or 'Extended' in row['booktitle'] or 'Workshop' in row['booktitle']
+                or 'Companion' in row['booktitle'] or 'person tracking' in row['keywords']):
                 writer.writerow({'type': row['type'], 'id': row['id'], 'author': row['author'],
                                 'editor': row['editor'],'advisor': row['advisor'], 'note': row['note'],
                                 'title': row['title'], 'pages': row['pages'],'article_no': row['article_no'],
@@ -87,5 +89,11 @@ with open('deleted_articles.csv', 'w', newline='') as writeDeletedFiles:
                     
                 
 
-
+#now, need to add papers to the list that cite one of a few key papers. On the ACM website, there is a list
+#of papers that cite these papers, but no way to do a csv download. I can hover over the hyperlink and
+#see the ID of each paper (and IDs are unique). So, I could extract that info from the webpage somehow,
+#possibly web scraping(?), and then check if the ID matches any ID in the current list of papers. If there
+#is a match, then skip to the next ID. If not, then go into the csv file containing a list of pretty much
+#all papers on the website (I can create this by doing a search for a word like 'a' or 'the' and then
+#downloading the csv file)and search for the paper by its ID, and add it to the current papers list.
 
