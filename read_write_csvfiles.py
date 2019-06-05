@@ -3,6 +3,7 @@ import re
 
 counter = 0 #will keep track of the total number of articles
 list_of_IDs = []
+list_of_IDs2 = []
 
 with open('combined_file.csv', newline='') as csvfile:
     reader = csv.DictReader(csvfile)
@@ -140,17 +141,37 @@ with open('list_of_papers.csv', newline='') as csvfile:
             writer.writerow({'type': "article", 'id': tuple[0],
                              'URL': "https://dl.acm.org/citation.cfm?id=" + tuple[0],'author': tuple[1]})
                 
-        
-#with open('list_of_papers', 'a') as writeNewFile:
-    #fieldnames = ['type', 'id', 'URL', 'author']
-#    writer = csv.writer(writeNewFile)
-#    
-#    with open('cites_key_articles.csv', newline='') as csvfile:
-#        reader = csv.DictReader(csvfile)
-#        row = [row['type'], row['id'], row['URL'],row['author']]
-        
-#        for row in reader:
-#            writer.writerow(row)
                 
 
+#for some reason, final list of paper had duplicates after running through. Getting rid of these                
+with open('still_has_duplicates.csv', newline='') as csvfile:
+    reader = csv.DictReader(csvfile)
+    for row in reader:
+        list_of_IDs2.append((row['id'])) #appends the ID number of the article
+
+#set_of_IDs = set(list_of_IDs) #sets contain no duplicates, so this will remove duplicates
+        
+list_of_IDs2 = list(dict.fromkeys(list_of_IDs2))
+#dictionaries cannot have duplicate keys, so this line removes duplicates and returns it as a list.
+
+#now, write the info into the list_of_papers csv file
+with open('final_list_of_papers.csv', 'w', newline='') as writeFile:
+    fieldnames = ['id', 'URL', 'author', 'title', 'keywords', 'doi', 'year','publication_venue']
+    writer = csv.DictWriter(writeFile, fieldnames = fieldnames)
+    
+    writer.writeheader()
+    with open('still_has_duplicates.csv', newline='') as csvfile:
+        reader = csv.DictReader(csvfile)
+        #go through each id in the list of non-duplicates and each row of the combined file
+        for idnum in list_of_IDs2:
+            for row in reader:
+             
+                # if we found the record we are looking for
+                if (idnum == row['id']):
+                    writer.writerow({'id': row['id'], 'URL': "https://dl.acm.org/citation.cfm?id=" + row['id'], 'author': row['author'],
+                                     'title': row['title'], 'keywords': row['keywords'],'doi': row['doi'],
+                                     'year': row['year'], 'publication_venue': row['publication_venue']})
+                    
+                    # move on to the next ID
+                    break
     
