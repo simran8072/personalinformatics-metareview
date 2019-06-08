@@ -19,6 +19,7 @@ with open('final_list_of_papers.csv', 'w', newline='') as writeFile:
     writer = csv.DictWriter(writeFile, fieldnames = fieldnames)
     
     writer.writeheader()
+    
     with open('still_has_duplicates.csv', newline='') as csvfile:
         reader = csv.DictReader(csvfile)
         #go through each id in the list of non-duplicates and each row of the combined file
@@ -60,6 +61,12 @@ for word in list_of_keywords:
         narrowed_list.append(word)
 
 narrowed_list = list(dict.fromkeys(narrowed_list))
+narrowed_list.remove('personal informatics')
+narrowed_list.remove('self-tracking')
+narrowed_list.remove('quantified self')
+narrowed_list.remove('tracking')
+narrowed_list.remove('personal data')
+narrowed_list.remove('quantified-self')
 
 #for word in narrowed_list:
 #    count += 1
@@ -70,29 +77,114 @@ narrowed_list = list(dict.fromkeys(narrowed_list))
 #print(narrowed_list)
 
 # 53 rows for 53 keywords to be examined
-r = 53
+r = 54
 # 10 columns for the years 2010-2019
 c = 10
 #first, set everything to 0
 array_of_stats = [[0] * c for i in range(r)]
 
+#create a row that lists the total number of publications each year
+with open('final_list_of_papers.csv', newline='') as csvfile:
+    reader = csv.DictReader(csvfile)
+    for row in reader:
+        temp_year = int(row['year'], 10)
+        if (temp_year > 2009):
+            array_of_stats[0][temp_year - 2010] += 1
 
 
-keyword_count = 0
+keyword_dict = {'reflection': 'reflection',
+                'self-monitoring': 'reflection',
+                'self-management': 'reflection',
+                'self-reflection': 'reflection',
+                'self-experimentation': 'reflection',
+                'wearables': 'wearables',
+                'wearable': 'wearables',
+                'wearable devices': 'wearables',
+                'persuasive technology': 'persuasive technology',
+                'gamification': 'persuasive technology',
+                'health': 'health',
+                'mhealth': 'health',
+                'mobile health': 'health',
+                'health informatics': 'health',
+                'fitness': 'fitness',
+                'activity tracker': 'fitness',
+                'activity tracking': 'fitness',
+                'physical activity': 'fitness',
+                'wellness': 'wellness',
+                'well-being': 'wellness',
+                'wellbeing': 'wellness',
+                'chronic disease management': 'chronic disease management',
+                'patient-generated data': 'chronic disease management',
+                'lived informatics': 'lived informatics',
+                'engagement': 'lived informatics',
+                'behavior change': 'behavior change',
+                'behaviour change': 'behavior change',
+                'visualization': 'visualization',
+                'data visualization': 'visualization',
+                'hci': 'hci',
+                'human-computer interaction': 'hci',
+                'user experience': 'hci',
+                'sleep': 'sleep',
+                'diabetes': 'diabetes',
+                'older adults': 'older adults',
+                'mental health': 'mental health',
+                'learning analytics': 'learning analytics',
+                'user modeling': 'user modeling',
+                'collaboration': 'collaboration',
+                'lifelogging': 'lifelogging',
+                'social media': 'social media',
+                'privacy': 'privacy',
+                'activity recognition': 'activity recognition',
+                'experience sampling': 'experience sampling',
+                'design': 'design',
+                'participatory design': 'participatory design'
+                }
+
+condensed_dictionary = {}
+
+for v in narrowed_list:
+    value = keyword_dict[v]
+    condensed_dictionary[value] = True
+    
+category_list = list(condensed_dictionary.keys())
+
+#keyword_count = 1
 #go through each of the 53 keywords
-for keyword in narrowed_list:
+#for keyword in narrowed_list:
     #each time, open the final list of papers file and go through searching for the keyword
-    with open('final_list_of_papers.csv', newline='') as csvfile:
-        reader = csv.DictReader(csvfile)
+    #with open('final_list_of_papers.csv', newline='') as csvfile:
+        #reader = csv.DictReader(csvfile)
+        #category = keyword_dict[keyword]
         #if the keyword is in the row, increment the correct year element by one
-        for row in reader:
-            if keyword in row['keywords']:
-                temp_year = int(row['year'], 10)
-                if (temp_year > 2009):
-                    array_of_stats[keyword_count][temp_year - 2010] += 1
+        #for row in reader:
+            #temp_list = []
+            #if keyword in row['keywords'] :
+                #temp_year = int(row['year'], 10)
+                #if (temp_year > 2009):
+                    #array_of_stats[keyword_count][temp_year - 2010] += 1
         
-        keyword_count += 1      
+        #keyword_count += 1      
                 
+
+with open('final_list_of_papers.csv', newline='') as csvfile:
+    reader = csv.DictReader(csvfile)
+    for row in reader:
+        temp_string = row['keywords'].lower()
+        #put these in a temporary list
+        keywords_in_row = temp_string.split(", ")
+        temp_dict = {}
+        for v in keywords_in_row:
+            if (v in narrowed_list):
+                value = keyword_dict[v]
+                temp_dict[value] = True
+        
+        row_list = temp_dict.keys()
+        
+        #keyword_count = 0
+        temp_year = int(row['year'], 10)
+        if (temp_year > 2009):
+            for keyword in row_list:
+                array_of_stats[category_list.index(keyword)][temp_year - 2010] += 1
 
 #make it print out nicely
 #pp = pprint.PrettyPrinter()
@@ -104,8 +196,14 @@ with open('keyword_stats.csv', 'w', newline='') as writeFile:
     fieldnames = ['keywords', '2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019']
     writer = csv.DictWriter(writeFile, fieldnames = fieldnames)
     writer.writeheader()
-    keyword_count = 0
-    for keyword in narrowed_list:
+    writer.writerow({'keywords': "total # publications", '2010': array_of_stats[0][0],
+                         '2011': array_of_stats[0][1], '2012':array_of_stats[0][2],
+                         '2013': array_of_stats[0][3], '2014':array_of_stats[0][4],
+                         '2015': array_of_stats[0][5], '2016': array_of_stats[0][6],
+                         '2017': array_of_stats[0][7], '2018': array_of_stats[0][8],
+                         '2019': array_of_stats[0][9]})
+    keyword_count = 1
+    for keyword in category_list:
         writer.writerow({'keywords': keyword, '2010': array_of_stats[keyword_count][0],
                          '2011': array_of_stats[keyword_count][1], '2012':array_of_stats[keyword_count][2],
                          '2013': array_of_stats[keyword_count][3], '2014':array_of_stats[keyword_count][4],
