@@ -1,0 +1,8 @@
+<p *ngIf="display">
+	{{author}}. <a [href]="link" target="_new">{{title}}</a>. {{venue}} ({{year}})
+</p>
+<ul *ngIf="display">
+	<li><em>Author keywords:</em> <span *ngFor="let keyword of keywords">{{keyword}}, </span></li>
+	<li><em>Our tags:</em> <span *ngFor="let tag of tags">{{tag}}, </span></li>
+</ul>
+<p *ngIf="!display">Please select a paper with a valid ID (go back in your browser)</p>
