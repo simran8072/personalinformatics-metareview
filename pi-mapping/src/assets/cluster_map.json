@@ -103,8 +103,10 @@
     "involved": [
         "individual",
         "none_involved",
+        "family",
         "close_tie",
         "health_provider",
+        "caregiver",
         "domain_expert",
         "peers_coworkers"
     ],
