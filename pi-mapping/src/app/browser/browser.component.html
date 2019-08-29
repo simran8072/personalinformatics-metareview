@@ -1,10 +1,13 @@
 <div class="row">
 	<div class="col-3">
 		<input type="text" [(ngModel)]="search" (ngModelChange)="searchFor()" placeholder="search...">
+		<button (click)="clear()">Clear</button>
 		<div *ngFor="let code of codes">
 			<strong>{{code}}</strong>
-			<div *ngFor="let c of clusters[code]" class="checkbox">
-				<input type="checkbox" [(ngModel)]="checked[code][c]" (ngModelChange)="check()" [name]="c" [id]="c"> <label [for]="c">{{c}} ({{counts[c]}})</label>
+			<div *ngFor="let c of clusters[code]">
+					<div *ngIf="counts[c]" class="checkbox">
+						<input type="checkbox" [(ngModel)]="checked[code][c]" (ngModelChange)="check()" [name]="c" [id]="c"> <label [for]="c">{{c}} ({{counts[c]}})</label>
+				</div>
 			</div>
 		</div>
 	</div>

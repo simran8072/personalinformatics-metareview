@@ -37,6 +37,14 @@ export class BrowserComponent implements OnInit {
   	this.paperList = this.papers.getAllPapers();
   }
 
+  clear() {
+    this.codes.forEach(c => {
+      this.checked[c] = {};
+    });
+    this.search = null;
+    this.check();
+  }
+
   checkBoxes():string[] {
   	let papersSoFar = this.papers.getAllPapers();
   	
