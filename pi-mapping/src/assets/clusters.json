@@ -137,7 +137,7 @@
 		"phone use":"other",
 		"books read":"other",
 		"web history":"other",
-		"solar radiation":"other",
+		"solar radiation":"health_behavior",
 		"social":"other",
 		"other":"other",
 		"weather":"other",
