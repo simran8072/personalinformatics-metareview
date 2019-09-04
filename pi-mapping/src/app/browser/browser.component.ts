@@ -15,6 +15,7 @@ export class BrowserComponent implements OnInit {
 	counts:{} = {};
 	paperList:string[] = [];
 	search:string;
+  hidden:{} = {};
 
 
   constructor(private papers:PapersService, private tags:TagsService) { }
@@ -24,6 +25,7 @@ export class BrowserComponent implements OnInit {
   	this.codes.forEach(c => {
   		this.clusters[c] = clusterMap[c];
   		this.checked[c] = {};
+      this.hidden[c] = true;
   		clusterMap[c].forEach(cm => {
   			let ids = this.tags.getIdsForTag(cm);
   			if(ids) {
@@ -43,6 +45,10 @@ export class BrowserComponent implements OnInit {
     });
     this.search = null;
     this.check();
+  }
+
+  toggleHide(code:string) {
+    this.hidden[code] = !this.hidden[code];
   }
 
   checkBoxes():string[] {

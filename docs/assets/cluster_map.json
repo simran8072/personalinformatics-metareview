@@ -176,5 +176,42 @@
         "consultant",
         "recruitment",
         "none_expert"
+    ],
+    "theory": [
+        "transtheoretical",
+        "none_theory",
+        "self-determination",
+        "vsd",
+        "schon",
+        "domain-specific theory",
+        "other reflection theory",
+        "fogg",
+        "self-experimentation",
+        "other social relationship theory",
+        "other behavior change theory",
+        "goal-setting",
+        "foucault self-care",
+        "boundary-negotiating artifacts",
+        "personal informatics model",
+        "gibson affordance",
+        "bronfenbrenner social ecological",
+        "sensemaking",
+        "tam",
+        "planned behavior",
+        "other theory of technology use",
+        "moon reflection in learning",
+        "mezirows theory, adult learning",
+        "reasoned action"
+    ],
+    "privacy&ethics": [
+        "data_control",
+        "ethics_broadly",
+        "protection_measure",
+        "data_sharing",
+        "data_implications",
+        "sensitive_domain",
+        "none",
+        "privacy_broadly",
+        "none_privacy&ethics"
     ]
 }

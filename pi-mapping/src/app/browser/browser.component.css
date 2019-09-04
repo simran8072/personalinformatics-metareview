@@ -5,3 +5,11 @@
 .checkbox > label {
 	margin: 0px;
 }
+
+.hidden {
+	display: none;
+}
+
+.show {
+	color: #007bff;
+}

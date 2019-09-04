@@ -4,10 +4,13 @@
 		<button (click)="clear()">Clear</button>
 		<div *ngFor="let code of codes">
 			<strong>{{code}}</strong>
-			<div *ngFor="let c of clusters[code]">
-					<div *ngIf="counts[c]" class="checkbox">
+			<div *ngFor="let c of clusters[code]; let i=index">
+					<div *ngIf="counts[c]" class="checkbox" [ngClass]="{'hidden': i > 10 && hidden[code]}">
 						<input type="checkbox" [(ngModel)]="checked[code][c]" (ngModelChange)="check()" [name]="c" [id]="c"> <label [for]="c">{{c}} ({{counts[c]}})</label>
-				</div>
+					</div>
+					<div *ngIf="i == 10">
+						<span class="show" (click)="toggleHide(code)">{{hidden[code] === true ? "> Show more" : "V Hide more"}}</span>
+					</div>
 			</div>
 		</div>
 	</div>
