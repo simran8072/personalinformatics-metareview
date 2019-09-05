@@ -13,23 +13,24 @@
             "uncertainty"
         ],
         "tags": [
-            "artifact",
             "empirical",
-            "chronic",
+            "artifact",
+            "other",
             "yes",
             "health",
             "reflection",
             "database",
-            "lab_study",
             "surveys",
-            "awareness",
+            "lab_study",
             "curiosity",
+            "awareness",
             "individual",
             "CHI",
             "author",
             "consultant",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "general_demographics"
         ]
     },
     "2858045": {
@@ -47,25 +48,26 @@
         ],
         "tags": [
             "empirical",
-            "location",
             "finances",
             "physical activity",
+            "location",
             "no",
             "wellness",
-            "collection",
             "integration",
+            "collection",
             "preparation",
             "social_media",
-            "recruitment_service",
             "mailing_list",
-            "interview",
+            "recruitment_service",
             "surveys",
+            "interview",
             "none_motivation",
             "individual",
             "CHI",
             "none_expert",
             "none_theory",
-            "protection_measure"
+            "protection_measure",
+            "general_demographics"
         ]
     },
     "3173936": {
@@ -86,20 +88,21 @@
             "no",
             "wellness",
             "reflection",
-            "collection",
             "integration",
+            "collection",
             "action",
             "social_media",
             "mailing_list",
-            "observations",
             "field_study",
             "interview",
+            "observations",
             "behavior_change",
             "individual",
             "CHI",
             "none_expert",
             "transtheoretical",
-            "protection_measure"
+            "protection_measure",
+            "general_demographics"
         ]
     },
     "2802090": {
@@ -129,7 +132,8 @@
             "ISWC",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "general_demographics"
         ]
     },
     "3240973": {
@@ -153,8 +157,8 @@
             "none_li",
             "social_media",
             "mailing_list",
-            "interview",
             "surveys",
+            "interview",
             "awareness",
             "chronic_management",
             "health_provider",
@@ -162,7 +166,8 @@
             "PervasiveHealth",
             "participant",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "general_demographics"
         ]
     },
     "3173581": {
@@ -180,14 +185,14 @@
             "pseudonymous"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "physical activity",
             "no",
             "wellness",
             "reflection",
-            "collection",
             "integration",
+            "collection",
             "prior_study",
             "field_study",
             "interview",
@@ -198,7 +203,9 @@
             "CHI",
             "none_expert",
             "none_theory",
-            "protection_measure"
+            "protection_measure",
+            "children",
+            "teachers"
         ]
     },
     "2858044": {
@@ -216,8 +223,8 @@
             "personal informatics"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "food",
             "no",
             "wellness",
@@ -225,19 +232,20 @@
             "collection",
             "action",
             "social_media",
-            "recruitment_service",
             "mailing_list",
+            "recruitment_service",
+            "surveys",
             "field_study",
             "interview",
-            "surveys",
-            "awareness",
-            "behavior_change",
             "specific_goal",
+            "behavior_change",
+            "awareness",
             "individual",
             "CHI",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "social media users"
         ]
     },
     "2702155": {
@@ -260,20 +268,21 @@
             "no",
             "wellness",
             "reflection",
-            "collection",
             "integration",
+            "collection",
             "action",
             "social_media",
             "mailing_list",
-            "public_data",
             "surveys",
+            "public_data",
             "behavior_change",
             "close_tie",
             "individual",
             "CHI",
             "none_expert",
             "none_theory",
-            "data_implications"
+            "data_implications",
+            "general_demographics"
         ]
     },
     "3196738": {
@@ -293,16 +302,17 @@
         "tags": [
             "empirical",
             "chronic",
+            "migraine",
             "yes",
             "health",
             "reflection",
-            "collection",
             "integration",
+            "collection",
             "action",
             "social_media",
             "mailing_list",
-            "interview",
             "surveys",
+            "interview",
             "chronic_management",
             "health_provider",
             "individual",
@@ -310,7 +320,9 @@
             "author",
             "participant",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "caregivers",
+            "patients"
         ]
     },
     "2702276": {
@@ -332,8 +344,8 @@
             "no",
             "wellness",
             "reflection",
-            "collection",
             "integration",
+            "collection",
             "database",
             "field_study",
             "curiosity",
@@ -341,7 +353,8 @@
             "CHI",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "general_demographics"
         ]
     },
     "1753409": {
@@ -360,30 +373,31 @@
             "reflection"
         ],
         "tags": [
-            "theoretical",
             "empirical",
-            "weight",
+            "theoretical",
             "other",
             "physical activity",
             "mental",
+            "weight",
             "productivity",
             "no",
             "neither",
             "integration",
+            "preparation",
+            "collection",
             "reflection",
             "action",
-            "collection",
-            "preparation",
             "social_media",
-            "interview",
             "surveys",
-            "awareness",
+            "interview",
             "behavior_change",
+            "awareness",
             "individual",
             "CHI",
             "none_expert",
             "transtheoretical",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "general_demographics"
         ]
     },
     "3130911": {
@@ -401,20 +415,21 @@
         ],
         "tags": [
             "empirical",
-            "general",
+            "general_tracking",
             "no",
             "wellness",
             "collection",
             "preparation",
             "class_students",
-            "participatory_design",
             "field_study",
+            "participatory_design",
             "external_rewards",
             "individual",
             "Ubicomp",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "students"
         ]
     },
     "3134671": {
@@ -436,10 +451,10 @@
             "no",
             "health",
             "integration",
+            "preparation",
+            "collection",
             "reflection",
             "action",
-            "collection",
-            "preparation",
             "none_recruitment",
             "public_data",
             "specific_goal",
@@ -447,7 +462,8 @@
             "CSCW",
             "none_expert",
             "personal informatics model",
-            "sensitive_domain"
+            "sensitive_domain",
+            "ttc"
         ]
     },
     "2702154": {
@@ -465,28 +481,29 @@
             "self-tracking"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "food",
             "yes",
             "wellness",
             "integration",
+            "preparation",
+            "collection",
             "reflection",
             "action",
-            "collection",
-            "preparation",
             "mailing_list",
             "expert_helper",
             "special_interest_group",
+            "surveys",
             "field_study",
             "interview",
-            "surveys",
             "behavior_change",
             "individual",
             "CHI",
             "recruitment",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "general_demographics"
         ]
     },
     "2466467": {
@@ -503,8 +520,8 @@
             "personal informatics"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "other",
             "no",
             "neither",
@@ -520,7 +537,8 @@
             "CHI",
             "none_expert",
             "none_theory",
-            "protection_measure"
+            "protection_measure",
+            "students"
         ]
     },
     "2481345": {
@@ -538,8 +556,8 @@
             "sleep"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "sleep",
             "no",
             "wellness",
@@ -551,7 +569,8 @@
             "CHI",
             "none_expert",
             "none_theory",
-            "data_implications"
+            "data_implications",
+            "general_demographics"
         ]
     },
     "2541070": {
@@ -569,7 +588,7 @@
         ],
         "tags": [
             "opinion",
-            "general",
+            "general_tracking",
             "no",
             "neither",
             "reflection",
@@ -581,7 +600,8 @@
             "none_expert",
             "other social relationship theory",
             "data_implications",
-            "ethics_broadly"
+            "ethics_broadly",
+            "general_demographics"
         ]
     },
     "2858360": {
@@ -598,8 +618,8 @@
             "self-tracking"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "mental",
             "sleep",
             "no",
@@ -612,7 +632,8 @@
             "CHI",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "n/a"
         ]
     },
     "2971656": {
@@ -630,26 +651,27 @@
             "re-engagement"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "physical activity",
             "no",
             "wellness",
             "reflection",
             "social_media",
-            "recruitment_service",
             "mailing_list",
             "snowball",
-            "log_analysis",
+            "recruitment_service",
             "surveys",
-            "awareness",
-            "behavior_change",
+            "log_analysis",
             "curiosity",
+            "behavior_change",
+            "awareness",
             "individual",
             "Ubicomp",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "general_demographics"
         ]
     },
     "3025686": {
@@ -667,8 +689,8 @@
             "transportation"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "finances",
             "other",
             "no",
@@ -680,9 +702,10 @@
             "individual",
             "CHI",
             "none_expert",
-            "other behavior change theory",
             "transtheoretical",
-            "none_privacy&ethics"
+            "other behavior change theory",
+            "none_privacy&ethics",
+            "general_demographics"
         ]
     },
     "3025804": {
@@ -699,8 +722,8 @@
             "social sensemaking"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "physical activity",
             "no",
             "wellness",
@@ -709,12 +732,13 @@
             "snowball",
             "lab_study",
             "none_motivation",
-            "individual",
             "peers_coworkers",
+            "individual",
             "CHI",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "general_demographics"
         ]
     },
     "3173701": {
@@ -733,8 +757,8 @@
             "workplace setting"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "productivity",
             "no",
             "neither",
@@ -746,7 +770,9 @@
             "CHI",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "university staff",
+            "students"
         ]
     },
     "2971542": {
@@ -766,26 +792,28 @@
         ],
         "tags": [
             "empirical",
+            "HIV",
             "chronic",
             "no",
             "health",
             "integration",
             "new",
+            "preparation",
+            "collection",
             "reflection",
             "action",
-            "collection",
-            "preparation",
             "social_media",
             "special_interest_group",
-            "interview",
             "surveys",
-            "awareness",
+            "interview",
             "behavior_change",
+            "awareness",
             "individual",
             "NordiCHI",
             "none_expert",
             "none_theory",
-            "sensitive_domain"
+            "sensitive_domain",
+            "patients"
         ]
     },
     "2686668": {
@@ -810,17 +838,18 @@
             "no",
             "wellness",
             "reflection",
-            "flyer",
             "mailing_list",
+            "flyer",
+            "surveys",
             "field_study",
             "interview",
-            "surveys",
             "behavior_change",
             "individual",
             "OzCHI",
             "none_expert",
             "none_theory",
-            "privacy_broadly"
+            "privacy_broadly",
+            "students"
         ]
     },
     "3174112": {
@@ -840,6 +869,7 @@
         ],
         "tags": [
             "empirical",
+            "diabetes",
             "chronic",
             "no",
             "health",
@@ -847,13 +877,14 @@
             "action",
             "database",
             "focus group",
-            "behavior_change",
             "specific_goal",
+            "behavior_change",
             "individual",
             "CHI",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "patients"
         ]
     },
     "2493433": {
@@ -871,8 +902,8 @@
             "value sensitive design"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "physical activity",
             "no",
             "wellness",
@@ -882,13 +913,14 @@
             "special_interest_group",
             "interview",
             "social",
-            "close_tie",
             "family",
             "peers_coworkers",
+            "close_tie",
             "Ubicomp",
             "none_expert",
             "vsd",
-            "data_sharing"
+            "data_sharing",
+            "general_demographics"
         ]
     },
     "3001920": {
@@ -915,21 +947,22 @@
             "no",
             "health",
             "reflection",
-            "collection",
             "integration",
+            "collection",
             "action",
             "snowball",
+            "surveys",
             "field_study",
             "interview",
-            "surveys",
-            "awareness",
-            "external_rewards",
             "behavior_change",
+            "external_rewards",
+            "awareness",
             "individual",
             "DEV",
             "none_expert",
             "self-determination",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "general_demographics"
         ]
     },
     "2957293": {
@@ -949,22 +982,23 @@
         "tags": [
             "empirical",
             "food",
-            "other",
             "physical activity",
             "classroom",
+            "other",
             "no",
             "wellness",
             "reflection",
             "snowball",
-            "field_study",
             "surveys",
+            "field_study",
             "behavior_change",
             "social",
             "individual",
             "GROUP",
             "none_expert",
             "none_theory",
-            "data_sharing"
+            "data_sharing",
+            "general_demographics"
         ]
     },
     "2901803": {
@@ -991,20 +1025,21 @@
             "no",
             "wellness",
             "integration",
+            "preparation",
+            "collection",
             "reflection",
             "action",
-            "collection",
-            "preparation",
             "unclear",
             "field_study",
             "literature_review",
-            "behavior_change",
             "specific_goal",
+            "behavior_change",
             "individual",
             "DIS",
             "none_expert",
             "none_theory",
-            "privacy_broadly"
+            "privacy_broadly",
+            "n/a"
         ]
     },
     "3025516": {
@@ -1035,7 +1070,8 @@
             "CHI",
             "none_expert",
             "schon",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "n/a"
         ]
     },
     "3174146": {
@@ -1054,19 +1090,19 @@
             "stress management"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "mental",
             "no",
             "wellness",
             "integration",
+            "preparation",
+            "collection",
             "reflection",
             "action",
-            "collection",
-            "preparation",
-            "flyer",
-            "social_media",
             "snowball",
+            "social_media",
+            "flyer",
             "focus group",
             "field_study",
             "interview",
@@ -1075,7 +1111,8 @@
             "CHI",
             "none_expert",
             "domain-specific theory",
-            "sensitive_domain"
+            "sensitive_domain",
+            "students"
         ]
     },
     "2702284": {
@@ -1094,8 +1131,8 @@
             "sustainability"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "food",
             "no",
             "wellness",
@@ -1106,9 +1143,10 @@
             "individual",
             "CHI",
             "none_expert",
-            "other reflection theory",
             "schon",
-            "protection_measure"
+            "other reflection theory",
+            "protection_measure",
+            "general_demographics"
         ]
     },
     "2971754": {
@@ -1126,8 +1164,8 @@
             "physical activity tracking"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "physical activity",
             "no",
             "wellness",
@@ -1136,13 +1174,14 @@
             "social_media",
             "field_study",
             "interview",
-            "awareness",
             "behavior_change",
+            "awareness",
             "individual",
             "Ubicomp",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "general_demographics"
         ]
     },
     "3173871": {
@@ -1160,26 +1199,27 @@
             "situated explorations"
         ],
         "tags": [
+            "empirical",
             "methodological",
             "artifact",
-            "empirical",
             "food",
             "sleep",
             "yes",
             "wellness",
             "reflection",
-            "collection",
             "integration",
+            "collection",
             "action",
             "unclear",
             "participatory_design",
             "awareness",
-            "health_provider",
             "family",
+            "health_provider",
             "CHI",
             "participant",
             "none_theory",
-            "ethics_broadly"
+            "ethics_broadly",
+            "families"
         ]
     },
     "3173654": {
@@ -1204,17 +1244,18 @@
             "neither",
             "none_li",
             "snowball",
-            "ethnography",
             "public_data",
-            "observations",
             "interview",
+            "observations",
+            "ethnography",
             "behavior_change",
             "close_tie",
             "individual",
             "CHI",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "gamers"
         ]
     },
     "3156158": {
@@ -1233,24 +1274,26 @@
         ],
         "tags": [
             "artifact",
+            "diabetes",
             "chronic",
             "yes",
             "health",
             "reflection",
-            "collection",
             "action",
+            "collection",
             "preparation",
             "unclear",
             "interview",
-            "chronic_management",
-            "behavior_change",
             "specific_goal",
+            "behavior_change",
+            "chronic_management",
             "individual",
             "OzCHI",
-            "consultant",
             "author",
+            "consultant",
             "fogg",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "patients"
         ]
     },
     "2804288": {
@@ -1269,25 +1312,26 @@
         ],
         "tags": [
             "empirical",
-            "general",
+            "general_tracking",
             "yes",
             "neither",
             "integration",
+            "preparation",
+            "collection",
             "reflection",
             "action",
-            "collection",
-            "preparation",
             "snowball",
-            "interview",
             "surveys",
-            "behavior_change",
+            "interview",
             "curiosity",
             "specific_goal",
+            "behavior_change",
             "individual",
             "Ubicomp",
             "author",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "workers"
         ]
     },
     "2858145": {
@@ -1306,32 +1350,34 @@
             "self-tracking"
         ],
         "tags": [
-            "artifact",
             "empirical",
-            "smoking",
-            "food",
+            "artifact",
             "physical activity",
-            "sleep",
             "drinking",
+            "food",
+            "smoking",
+            "sleep",
             "yes",
             "wellness",
             "reflection",
-            "collection",
             "integration",
+            "collection",
             "unclear",
             "expert_helper",
             "field_study",
             "interview",
-            "chronic_management",
-            "behavior_change",
             "specific_goal",
+            "behavior_change",
+            "chronic_management",
             "health_provider",
             "individual",
             "CHI",
             "author",
             "participant",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "clinicians",
+            "patients"
         ]
     },
     "3131892": {
@@ -1356,16 +1402,17 @@
             "wellness",
             "collection",
             "none_recruitment",
-            "lab_study",
+            "surveys",
             "field_study",
             "interview",
-            "surveys",
+            "lab_study",
             "none_motivation",
             "individual",
             "Ubicomp",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "students"
         ]
     },
     "2466140": {
@@ -1385,8 +1432,8 @@
             "wellbeing"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "food",
             "physical activity",
             "sleep",
@@ -1395,16 +1442,17 @@
             "reflection",
             "collection",
             "recruitment_service",
+            "surveys",
             "field_study",
             "interview",
-            "surveys",
-            "awareness",
             "behavior_change",
+            "awareness",
             "individual",
             "CHI",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "general_demographics"
         ]
     },
     "2858066": {
@@ -1424,26 +1472,27 @@
             "work breaks"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "productivity",
             "no",
             "neither",
             "reflection",
             "action",
             "social_media",
+            "snowball",
             "recruitment_service",
             "mailing_list",
-            "snowball",
-            "diary_study",
             "surveys",
-            "awareness",
+            "diary_study",
             "behavior_change",
+            "awareness",
             "individual",
             "CHI",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "workers"
         ]
     },
     "2686623": {
@@ -1463,7 +1512,7 @@
         ],
         "tags": [
             "opinion",
-            "general",
+            "general_tracking",
             "no",
             "neither",
             "none_li",
@@ -1473,10 +1522,11 @@
             "none_involved",
             "OzCHI",
             "none_expert",
-            "other behavior change theory",
             "other theory of technology use",
             "reasoned action",
-            "sensitive_domain"
+            "other behavior change theory",
+            "sensitive_domain",
+            "n/a"
         ]
     },
     "2030166": {
@@ -1499,10 +1549,9 @@
             "empirical",
             "other",
             "physical activity",
-            "sleep",
-            "finances",
-            "chronic",
             "productivity",
+            "finances",
+            "sleep",
             "no",
             "wellness",
             "reflection",
@@ -1514,7 +1563,8 @@
             "Ubicomp",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "general_demographics"
         ]
     },
     "3016743": {
@@ -1539,21 +1589,22 @@
             "no",
             "wellness",
             "integration",
+            "preparation",
+            "collection",
             "reflection",
             "action",
-            "collection",
-            "preparation",
             "mailing_list",
             "field_study",
             "interview",
-            "awareness",
-            "behavior_change",
             "specific_goal",
+            "behavior_change",
+            "awareness",
             "individual",
             "PUC",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "general_demographics"
         ]
     },
     "2804290": {
@@ -1571,8 +1622,8 @@
             "physical activity trackers"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "physical activity",
             "no",
             "wellness",
@@ -1580,15 +1631,16 @@
             "collection",
             "preparation",
             "public",
-            "log_analysis",
-            "field_study",
             "surveys",
+            "field_study",
+            "log_analysis",
             "behavior_change",
             "individual",
             "Ubicomp",
             "none_expert",
             "transtheoretical",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "general_demographics"
         ]
     },
     "3274309": {
@@ -1617,7 +1669,8 @@
             "CSCW",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "ttc"
         ]
     },
     "2557299": {
@@ -1637,29 +1690,30 @@
             "wearables"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "physical activity",
             "no",
             "wellness",
             "reflection",
             "collection",
             "action",
-            "special_interest_group",
             "mailing_list",
             "snowball",
+            "special_interest_group",
             "case_study",
-            "field_study",
-            "interview",
             "surveys",
+            "interview",
+            "field_study",
             "observations",
-            "social",
             "specific_goal",
+            "social",
             "individual",
             "CHI",
             "none_expert",
             "other social relationship theory",
-            "data_implications"
+            "data_implications",
+            "general_demographics"
         ]
     },
     "2984534": {
@@ -1683,21 +1737,22 @@
             "yes",
             "wellness",
             "integration",
+            "preparation",
+            "collection",
             "reflection",
             "action",
-            "collection",
-            "preparation",
             "unclear",
-            "field_study",
             "surveys",
-            "awareness",
+            "field_study",
             "specific_goal",
+            "awareness",
             "individual",
             "UIST",
             "author",
             "consultant",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "students"
         ]
     },
     "2534557": {
@@ -1719,22 +1774,23 @@
             "touchscreen"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "sleep",
             "no",
             "wellness",
             "collection",
-            "flyer",
             "mailing_list",
-            "lab_study",
+            "flyer",
             "surveys",
+            "lab_study",
             "none_motivation",
             "individual",
             "PervasiveHealth",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "general_demographics"
         ]
     },
     "2675191": {
@@ -1755,8 +1811,8 @@
             "stress management"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "mental",
             "no",
             "wellness",
@@ -1765,13 +1821,15 @@
             "snowball",
             "lab_study",
             "interview",
-            "social",
             "specific_goal",
+            "social",
             "individual",
             "CSCW",
             "none_expert",
             "none_theory",
-            "data_control"
+            "data_control",
+            "university staff",
+            "students"
         ]
     },
     "2557144": {
@@ -1791,8 +1849,8 @@
             "quantifiable self"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "physical activity",
             "yes",
             "wellness",
@@ -1807,7 +1865,8 @@
             "CHI",
             "participant",
             "other behavior change theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "general_demographics"
         ]
     },
     "3240974": {
@@ -1828,27 +1887,28 @@
             "user experience"
         ],
         "tags": [
-            "artifact",
             "empirical",
-            "health_behavior",
+            "artifact",
             "food",
+            "health_behavior",
             "physical activity",
             "yes",
             "wellness",
             "reflection",
-            "collection",
             "integration",
+            "collection",
             "action",
             "expert_helper",
-            "lab_study",
             "field_study",
             "interview",
+            "lab_study",
             "behavior_change",
             "individual",
             "PervasiveHealth",
             "author",
             "fogg",
-            "data_sharing"
+            "data_sharing",
+            "patients"
         ]
     },
     "3025557": {
@@ -1877,18 +1937,20 @@
             "collection",
             "action",
             "social_media",
-            "public_data",
-            "literature_review",
-            "interview",
             "surveys",
-            "awareness",
+            "public_data",
+            "interview",
+            "literature_review",
             "behavior_change",
+            "awareness",
             "health_provider",
             "individual",
             "CHI",
             "participant",
             "domain-specific theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "general_demographics",
+            "health experts"
         ]
     },
     "3300391": {
@@ -1913,16 +1975,17 @@
             "health",
             "reflection",
             "database",
-            "diary_study",
             "field_study",
             "interview",
-            "curiosity",
+            "diary_study",
             "specific_goal",
+            "curiosity",
             "individual",
             "CHI",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "general_demographics"
         ]
     },
     "2838742": {
@@ -1949,8 +2012,8 @@
             "no",
             "wellness",
             "reflection",
-            "collection",
             "integration",
+            "collection",
             "none_recruitment",
             "public_data",
             "awareness",
@@ -1958,7 +2021,8 @@
             "OzCHI",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "general_demographics"
         ]
     },
     "3264938": {
@@ -1979,26 +2043,27 @@
             "user engagement"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "health_behavior",
             "no",
             "wellness",
             "integration",
+            "preparation",
+            "collection",
             "reflection",
             "action",
-            "collection",
-            "preparation",
             "prior_study",
             "field_study",
             "interview",
             "specific_goal",
-            "close_tie",
+            "family",
             "individual",
             "Ubicomp",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "families"
         ]
     },
     "3194663": {
@@ -2033,7 +2098,8 @@
             "DH",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "general_demographics"
         ]
     },
     "3064676": {
@@ -2054,10 +2120,10 @@
             "user experience"
         ],
         "tags": [
-            "artifact",
             "empirical",
-            "weight",
+            "artifact",
             "food",
+            "weight",
             "no",
             "wellness",
             "none_li",
@@ -2067,9 +2133,10 @@
             "individual",
             "DIS",
             "none_expert",
-            "transtheoretical",
             "goal-setting",
-            "none_privacy&ethics"
+            "transtheoretical",
+            "none_privacy&ethics",
+            "general_demographics"
         ]
     },
     "2826189": {
@@ -2091,6 +2158,7 @@
         ],
         "tags": [
             "empirical",
+            "chronic pain",
             "chronic",
             "yes",
             "health",
@@ -2098,21 +2166,22 @@
             "collection",
             "action",
             "special_interest_group",
-            "focus group",
-            "interview",
             "surveys",
-            "chronic_management",
+            "interview",
+            "focus group",
             "specific_goal",
+            "behavior_change",
             "social",
             "awareness",
-            "behavior_change",
+            "chronic_management",
             "health_provider",
             "individual",
             "PervasiveHealth",
-            "consultant",
             "recruitment",
+            "consultant",
             "none_theory",
-            "sensitive_domain"
+            "sensitive_domain",
+            "patients"
         ]
     },
     "3196829": {
@@ -2142,14 +2211,15 @@
             "mailing_list",
             "snowball",
             "interview",
+            "curiosity",
             "behavior_change",
             "social",
-            "curiosity",
             "individual",
             "TOCHI",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "athletes"
         ]
     },
     "2804250": {
@@ -2170,33 +2240,34 @@
             "self-tracking"
         ],
         "tags": [
-            "theoretical",
             "empirical",
-            "location",
+            "theoretical",
             "finances",
             "physical activity",
+            "location",
             "no",
             "wellness",
             "integration",
             "new",
+            "preparation",
+            "collection",
             "reflection",
             "action",
-            "collection",
-            "preparation",
             "social_media",
-            "recruitment_service",
             "mailing_list",
-            "interview",
+            "recruitment_service",
             "surveys",
-            "awareness",
-            "external_rewards",
-            "behavior_change",
+            "interview",
             "curiosity",
+            "behavior_change",
+            "external_rewards",
+            "awareness",
             "individual",
             "Ubicomp",
             "none_expert",
             "personal informatics model",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "general_demographics"
         ]
     },
     "3025480": {
@@ -2216,15 +2287,15 @@
             "symptom triggers"
         ],
         "tags": [
-            "theoretical",
-            "artifact",
             "empirical",
+            "artifact",
+            "theoretical",
             "food",
             "yes",
             "health",
             "reflection",
-            "collection",
             "integration",
+            "collection",
             "preparation",
             "mailing_list",
             "field_study",
@@ -2235,7 +2306,8 @@
             "CHI",
             "author",
             "self-experimentation",
-            "privacy_broadly"
+            "privacy_broadly",
+            "patients"
         ]
     },
     "3154880": {
@@ -2269,7 +2341,8 @@
             "PervasiveHealth",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "general_demographics"
         ]
     },
     "2702384": {
@@ -2300,14 +2373,15 @@
             "none_li",
             "special_interest_group",
             "ethnography",
-            "observations",
             "interview",
+            "observations",
             "none_motivation",
             "individual",
             "CHI",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "general_demographics"
         ]
     },
     "3264924": {
@@ -2340,14 +2414,15 @@
             "reflection",
             "unclear",
             "class_students",
-            "lab_study",
             "surveys",
+            "lab_study",
             "awareness",
             "individual",
             "Ubicomp",
             "none_expert",
             "domain-specific theory",
-            "data_implications"
+            "data_implications",
+            "students"
         ]
     },
     "3300337": {
@@ -2368,15 +2443,16 @@
         ],
         "tags": [
             "empirical",
+            "Parkinson's disease",
             "chronic",
             "no",
             "health",
             "reflection",
-            "collection",
             "integration",
+            "collection",
             "social_media",
-            "special_interest_group",
             "snowball",
+            "special_interest_group",
             "interview",
             "awareness",
             "individual",
@@ -2384,7 +2460,8 @@
             "CHI",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "patients"
         ]
     },
     "2702197": {
@@ -2404,8 +2481,8 @@
             "quantified self"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "physical activity",
             "no",
             "wellness",
@@ -2419,7 +2496,8 @@
             "CHI",
             "none_expert",
             "goal-setting",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "families"
         ]
     },
     "3174224": {
@@ -2445,21 +2523,23 @@
             "yes",
             "health",
             "integration",
+            "preparation",
+            "collection",
             "reflection",
             "action",
-            "collection",
-            "preparation",
             "unclear",
             "interview",
             "specific_goal",
-            "caregiver",
             "family",
+            "caregiver",
             "individual",
             "CHI",
             "author",
             "recruitment",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "caregivers",
+            "patients"
         ]
     },
     "2826188": {
@@ -2484,8 +2564,8 @@
             "yes",
             "health",
             "reflection",
-            "collection",
             "integration",
+            "collection",
             "preparation",
             "none_recruitment",
             "unclear",
@@ -2494,10 +2574,11 @@
             "behavior_change",
             "individual",
             "PervasiveHealth",
-            "recruitment",
             "participant",
+            "recruitment",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "clinicians"
         ]
     },
     "2598558": {
@@ -2518,8 +2599,8 @@
             "self-tracking"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "physical activity",
             "no",
             "wellness",
@@ -2527,16 +2608,17 @@
             "integration",
             "mailing_list",
             "special_interest_group",
-            "interview",
             "surveys",
-            "awareness",
-            "behavior_change",
+            "interview",
             "curiosity",
+            "behavior_change",
+            "awareness",
             "individual",
             "DIS",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "general_demographics"
         ]
     },
     "2805832": {
@@ -2563,23 +2645,24 @@
             "no",
             "wellness",
             "reflection",
-            "collection",
             "integration",
+            "collection",
             "action",
             "social_media",
             "snowball",
-            "interview",
             "surveys",
+            "interview",
+            "behavior_change",
             "curiosity",
-            "external_rewards",
             "social",
             "awareness",
-            "behavior_change",
+            "external_rewards",
             "individual",
             "Ubicomp",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "general_demographics"
         ]
     },
     "3010988": {
@@ -2606,15 +2689,16 @@
             "wellness",
             "reflection",
             "unclear",
-            "interview",
             "surveys",
-            "awareness",
+            "interview",
             "behavior_change",
+            "awareness",
             "individual",
             "OzCHI",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "students"
         ]
     },
     "2998362": {
@@ -2636,25 +2720,27 @@
         ],
         "tags": [
             "empirical",
-            "chronic",
+            "arthritis",
             "sleep",
+            "chronic",
             "yes",
             "health",
             "integration",
+            "preparation",
+            "collection",
             "reflection",
             "action",
-            "collection",
-            "preparation",
             "mailing_list",
             "prior_study",
-            "participatory_design",
             "interview",
+            "participatory_design",
             "chronic_management",
             "family",
             "CSCW",
             "author",
             "personal informatics model",
-            "data_sharing"
+            "data_sharing",
+            "families"
         ]
     },
     "2858428": {
@@ -2675,8 +2761,8 @@
             "semi-automated journaling"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "productivity",
             "no",
             "neither",
@@ -2689,7 +2775,8 @@
             "CHI",
             "none_expert",
             "none_theory",
-            "data_implications"
+            "data_implications",
+            "general_demographics"
         ]
     },
     "3300845": {
@@ -2710,24 +2797,25 @@
             "self-tracking"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "productivity",
             "no",
             "neither",
             "reflection",
-            "collection",
             "integration",
+            "collection",
             "social_media",
             "mailing_list",
-            "diary_study",
             "interview",
+            "diary_study",
             "none_motivation",
             "individual",
             "CHI",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "general_demographics"
         ]
     },
     "3274383": {
@@ -2749,27 +2837,28 @@
             "tracking"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "food",
             "no",
             "wellness",
             "reflection",
-            "collection",
             "integration",
+            "collection",
             "action",
             "prior_study",
             "special_interest_group",
             "surveys",
-            "awareness",
-            "behavior_change",
-            "social",
             "curiosity",
+            "social",
+            "behavior_change",
+            "awareness",
             "family",
             "CSCW",
             "none_expert",
             "other social relationship theory",
-            "data_sharing"
+            "data_sharing",
+            "general_demographics"
         ]
     },
     "3156136": {
@@ -2789,19 +2878,21 @@
         ],
         "tags": [
             "artifact",
+            "movement rehabilitation",
             "chronic",
             "yes",
             "health",
             "collection",
             "snowball",
-            "lab_study",
             "field_study",
+            "lab_study",
             "none_motivation",
             "individual",
             "OzCHI",
             "consultant",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "students"
         ]
     },
     "2804266": {
@@ -2824,25 +2915,26 @@
             "sleep"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "sleep",
             "no",
             "wellness",
             "reflection",
-            "collection",
             "integration",
+            "collection",
             "mailing_list",
             "snowball",
-            "interview",
             "surveys",
-            "awareness",
+            "interview",
             "behavior_change",
+            "awareness",
             "individual",
             "Ubicomp",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "general_demographics"
         ]
     },
     "2557383": {
@@ -2867,22 +2959,23 @@
             "no",
             "wellness",
             "integration",
+            "preparation",
+            "collection",
             "reflection",
             "action",
-            "collection",
-            "preparation",
             "social_media",
             "mailing_list",
             "snowball",
             "interview",
-            "external_rewards",
             "behavior_change",
+            "external_rewards",
             "social",
             "individual",
             "CHI",
             "none_expert",
             "none_theory",
-            "data_sharing"
+            "data_sharing",
+            "general_demographics"
         ]
     },
     "2370253": {
@@ -2903,26 +2996,27 @@
             "ubiquitous computing"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "sleep",
             "no",
             "wellness",
             "reflection",
-            "collection",
             "integration",
+            "collection",
             "action",
-            "flyer",
             "snowball",
-            "interview",
+            "flyer",
             "surveys",
+            "interview",
             "behavior_change",
             "individual",
             "Ubicomp",
             "none_expert",
             "none_theory",
+            "data_sharing",
             "protection_measure",
-            "data_sharing"
+            "patients"
         ]
     },
     "3134743": {
@@ -2950,22 +3044,24 @@
             "no",
             "neither",
             "integration",
+            "preparation",
+            "collection",
             "reflection",
             "action",
-            "collection",
-            "preparation",
-            "flyer",
             "social_media",
             "snowball",
-            "diary_study",
-            "interview",
+            "flyer",
             "surveys",
+            "interview",
+            "diary_study",
             "awareness",
             "family",
             "CSCW",
             "none_expert",
             "none_theory",
-            "data_implications"
+            "data_implications",
+            "caregivers",
+            "families"
         ]
     },
     "2819926": {
@@ -2990,19 +3086,20 @@
             "yes",
             "health",
             "integration",
+            "preparation",
+            "collection",
             "reflection",
             "action",
-            "collection",
-            "preparation",
             "mailing_list",
-            "interview",
             "surveys",
+            "interview",
             "chronic_management",
             "individual",
             "CSCW",
             "author",
             "boundary-negotiating artifacts",
-            "privacy_broadly"
+            "privacy_broadly",
+            "patients"
         ]
     },
     "3314409": {
@@ -3025,8 +3122,9 @@
             "visualizations"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
+            "diabetes",
             "chronic",
             "no",
             "health",
@@ -3040,7 +3138,8 @@
             "Ubicomp",
             "none_expert",
             "sensemaking",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "patients"
         ]
     },
     "2147790": {
@@ -3062,22 +3161,23 @@
             "visualizations"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "physical activity",
             "no",
             "wellness",
             "collection",
-            "flyer",
             "mailing_list",
-            "diary_study",
+            "flyer",
             "interview",
+            "diary_study",
             "behavior_change",
             "individual",
             "TOCHI",
             "none_expert",
             "personal informatics model",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "general_demographics"
         ]
     },
     "3025869": {
@@ -3098,12 +3198,13 @@
         ],
         "tags": [
             "empirical",
-            "chronic",
-            "food",
-            "physical activity",
-            "sleep",
-            "mental",
             "heartrate",
+            "physical activity",
+            "mental",
+            "chronic",
+            "multiple sclerosis",
+            "food",
+            "sleep",
             "no",
             "both",
             "reflection",
@@ -3115,7 +3216,8 @@
             "CHI",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "patients"
         ]
     },
     "2702260": {
@@ -3141,13 +3243,14 @@
             "none_li",
             "snowball",
             "focus group",
-            "awareness",
             "curiosity",
+            "awareness",
             "close_tie",
             "CHI",
             "consultant",
             "none_theory",
-            "data_control"
+            "data_control",
+            "pet owners"
         ]
     },
     "3130930": {
@@ -3170,22 +3273,23 @@
             "wellness"
         ],
         "tags": [
-            "artifact",
             "empirical",
-            "general",
+            "artifact",
+            "general_tracking",
             "no",
             "neither",
             "collection",
             "social_media",
             "database",
-            "interview",
             "surveys",
+            "interview",
             "none_motivation",
             "individual",
             "Ubicomp",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "general_demographics"
         ]
     },
     "3174139": {
@@ -3206,22 +3310,24 @@
         ],
         "tags": [
             "empirical",
+            "endometriosis",
             "chronic",
             "no",
             "health",
             "none_li",
-            "flyer",
             "social_media",
-            "public_data",
-            "focus group",
-            "interview",
+            "flyer",
             "surveys",
+            "public_data",
+            "interview",
+            "focus group",
             "chronic_management",
             "individual",
             "CHI",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "patients"
         ]
     },
     "3300600": {
@@ -3241,9 +3347,10 @@
             "technologies for health"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "food",
+            "diabetes",
             "chronic",
             "no",
             "health",
@@ -3256,7 +3363,8 @@
             "CHI",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "patients"
         ]
     },
     "3300309": {
@@ -3277,22 +3385,23 @@
             "visualization"
         ],
         "tags": [
-            "artifact",
             "empirical",
-            "general",
+            "artifact",
+            "general_tracking",
             "no",
             "neither",
             "reflection",
             "integration",
             "unclear",
-            "lab_study",
             "surveys",
+            "lab_study",
             "none_motivation",
             "individual",
             "CHI",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "general_demographics"
         ]
     },
     "3152774": {
@@ -3316,21 +3425,22 @@
             "self-tracking"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "food",
             "no",
             "wellness",
             "none_li",
             "flyer",
-            "interview",
             "surveys",
+            "interview",
             "specific_goal",
             "individual",
             "OzCHI",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "general_demographics"
         ]
     },
     "3154864": {
@@ -3354,20 +3464,23 @@
         ],
         "tags": [
             "empirical",
+            "mobility impairment",
             "chronic",
             "yes",
             "health",
             "none_li",
+            "snowball",
             "flyer",
             "special_interest_group",
-            "snowball",
             "interview",
             "specific_goal",
             "individual",
             "PervasiveHealth",
             "participant",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "clinicians",
+            "patients"
         ]
     },
     "3264917": {
@@ -3386,8 +3499,8 @@
             "self-reflection"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "physical activity",
             "no",
             "wellness",
@@ -3395,13 +3508,14 @@
             "unclear",
             "lab_study",
             "interview",
-            "behavior_change",
             "curiosity",
+            "behavior_change",
             "individual",
             "Ubicomp",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "students"
         ]
     },
     "3314394": {
@@ -3421,9 +3535,10 @@
             "personal informatics"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "food",
+            "irritable bowel syndrome",
             "chronic",
             "yes",
             "health",
@@ -3431,15 +3546,17 @@
             "social_media",
             "mailing_list",
             "snowball",
-            "interview",
             "surveys",
-            "behavior_change",
+            "interview",
             "specific_goal",
+            "behavior_change",
             "individual",
             "Ubicomp",
             "participant",
             "boundary-negotiating artifacts",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "general_demographics",
+            "health experts"
         ]
     },
     "3154881": {
@@ -3460,21 +3577,22 @@
             "visualization insights"
         ],
         "tags": [
-            "artifact",
             "empirical",
-            "general",
+            "artifact",
+            "general_tracking",
             "no",
             "neither",
             "reflection",
             "recruitment_service",
-            "lab_study",
             "surveys",
+            "lab_study",
             "none_motivation",
             "individual",
             "PervasiveHealth",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "general_demographics"
         ]
     },
     "2909664": {
@@ -3495,8 +3613,8 @@
             "persuasive technologies"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "weight",
             "no",
             "health",
@@ -3509,7 +3627,8 @@
             "ICTD",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "patients"
         ]
     },
     "3174077": {
@@ -3532,20 +3651,22 @@
         ],
         "tags": [
             "empirical",
+            "diabetes",
             "chronic",
             "yes",
             "health",
             "reflection",
             "snowball",
             "special_interest_group",
-            "lab_study",
             "surveys",
+            "lab_study",
             "chronic_management",
             "individual",
             "CHI",
             "consultant",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "general_demographics"
         ]
     },
     "3025747": {
@@ -3570,20 +3691,21 @@
             "no",
             "wellness",
             "integration",
+            "preparation",
+            "collection",
             "reflection",
             "action",
-            "collection",
-            "preparation",
             "social_media",
             "snowball",
             "interview",
-            "behavior_change",
             "specific_goal",
+            "behavior_change",
             "individual",
             "CHI",
             "none_expert",
             "personal informatics model",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "social media users"
         ]
     },
     "2675248": {
@@ -3606,20 +3728,22 @@
         "tags": [
             "empirical",
             "chronic",
+            "migraine",
             "yes",
             "health",
             "reflection",
-            "flyer",
             "snowball",
+            "flyer",
             "interview",
-            "social",
             "specific_goal",
+            "social",
             "health_provider",
             "individual",
             "CSCW",
             "participant",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "patients"
         ]
     },
     "2701378": {
@@ -3639,25 +3763,26 @@
             "quantified self"
         ],
         "tags": [
-            "theoretical",
             "opinion",
-            "general",
+            "theoretical",
+            "general_tracking",
             "no",
             "neither",
             "reflection",
-            "collection",
             "integration",
+            "collection",
             "action",
             "none_recruitment",
             "literature_review",
-            "awareness",
-            "behavior_change",
             "curiosity",
+            "behavior_change",
+            "awareness",
             "none_involved",
             "IUI",
             "none_expert",
             "other social relationship theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "n/a"
         ]
     },
     "2675135": {
@@ -3685,15 +3810,16 @@
             "reflection",
             "action",
             "mailing_list",
+            "surveys",
             "public_data",
             "literature_review",
-            "surveys",
             "social",
             "individual",
             "CSCW",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "social media users"
         ]
     },
     "3154878": {
@@ -3725,7 +3851,8 @@
             "PervasiveHealth",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "general_demographics"
         ]
     },
     "2838752": {
@@ -3744,23 +3871,24 @@
             "pervasive"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "food",
             "no",
             "wellness",
             "reflection",
             "collection",
             "none_recruitment",
+            "surveys",
             "field_study",
             "interview",
-            "surveys",
             "none_motivation",
             "individual",
             "OzCHI",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "general_demographics"
         ]
     },
     "3210918": {
@@ -3788,14 +3916,15 @@
             "collection",
             "unclear",
             "interview",
-            "awareness",
-            "behavior_change",
             "curiosity",
+            "behavior_change",
+            "awareness",
             "individual",
             "PUC",
             "none_expert",
             "gibson affordance",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "general_demographics"
         ]
     },
     "3025635": {
@@ -3821,24 +3950,25 @@
             "no",
             "health",
             "integration",
+            "preparation",
+            "collection",
             "reflection",
             "action",
-            "collection",
-            "preparation",
-            "unclear",
             "social_media",
+            "unclear",
+            "surveys",
             "public_data",
             "interview",
-            "surveys",
-            "awareness",
-            "curiosity",
             "specific_goal",
+            "curiosity",
+            "awareness",
             "individual",
             "CHI",
             "none_expert",
             "none_theory",
+            "ethics_broadly",
             "data_implications",
-            "ethics_broadly"
+            "general_demographics"
         ]
     },
     "2807552": {
@@ -3859,8 +3989,8 @@
             "service"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "physical activity",
             "yes",
             "wellness",
@@ -3868,16 +3998,18 @@
             "preparation",
             "social_media",
             "snowball",
+            "surveys",
             "field_study",
             "interview",
-            "surveys",
             "behavior_change",
             "health_provider",
             "individual",
             "Ubicomp",
             "participant",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "general_demographics",
+            "clinicians"
         ]
     },
     "3300822": {
@@ -3903,16 +4035,18 @@
             "both",
             "none_li",
             "flyer",
-            "participatory_design",
             "interview",
-            "awareness",
+            "participatory_design",
             "behavior_change",
+            "awareness",
             "health_provider",
             "individual",
             "CHI",
             "participant",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "health experts",
+            "patients"
         ]
     },
     "3025750": {
@@ -3935,28 +4069,30 @@
         ],
         "tags": [
             "empirical",
-            "weight",
             "other",
-            "food",
             "physical activity",
-            "sleep",
             "womens_health",
+            "weight",
+            "food",
+            "sleep",
             "yes",
             "wellness",
             "reflection",
             "action",
             "social_media",
             "snowball",
+            "surveys",
             "lab_study",
             "focus group",
-            "surveys",
             "awareness",
             "health_provider",
             "individual",
             "CHI",
             "participant",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "students",
+            "health experts"
         ]
     },
     "3173602": {
@@ -3986,20 +4122,21 @@
             "no",
             "wellness",
             "reflection",
-            "collection",
             "integration",
+            "collection",
             "action",
             "none_recruitment",
             "public_data",
-            "awareness",
+            "specific_goal",
             "social",
             "curiosity",
-            "specific_goal",
+            "awareness",
             "individual",
             "CHI",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "social media users"
         ]
     },
     "3274396": {
@@ -4021,34 +4158,35 @@
             "serious mental illness"
         ],
         "tags": [
-            "theoretical",
             "empirical",
+            "theoretical",
             "mental",
             "yes",
             "health",
             "integration",
+            "preparation",
+            "collection",
             "reflection",
             "action",
-            "collection",
-            "preparation",
-            "flyer",
             "mailing_list",
+            "flyer",
             "special_interest_group",
-            "lab_study",
-            "focus group",
-            "interview",
             "surveys",
+            "lab_study",
+            "interview",
+            "focus group",
             "awareness",
             "chronic_management",
             "social",
+            "family",
             "health_provider",
             "close_tie",
-            "family",
             "individual",
             "CSCW",
             "recruitment",
             "bronfenbrenner social ecological",
-            "ethics_broadly"
+            "ethics_broadly",
+            "patients"
         ]
     },
     "3134723": {
@@ -4079,12 +4217,12 @@
             "reflection",
             "action",
             "expert_helper",
-            "observations",
             "focus group",
             "interview",
+            "observations",
+            "specific_goal",
             "chronic_management",
             "social",
-            "specific_goal",
             "caregiver",
             "health_provider",
             "individual",
@@ -4092,7 +4230,9 @@
             "author",
             "participant",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "clinicians",
+            "patients"
         ]
     },
     "3025654": {
@@ -4125,22 +4265,23 @@
             "no",
             "wellness",
             "integration",
+            "preparation",
+            "collection",
             "reflection",
             "action",
-            "collection",
-            "preparation",
             "snowball",
             "interview",
-            "awareness",
-            "behavior_change",
-            "social",
             "curiosity",
+            "social",
+            "behavior_change",
+            "awareness",
             "close_tie",
             "individual",
             "CHI",
             "none_expert",
             "none_theory",
-            "data_implications"
+            "data_implications",
+            "social media users"
         ]
     },
     "3001790": {
@@ -4165,8 +4306,8 @@
             "ehealth"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "mental",
             "no",
             "wellness",
@@ -4177,10 +4318,11 @@
             "individual",
             "ACE",
             "none_expert",
-            "domain-specific theory",
             "fogg",
             "self-determination",
-            "none_privacy&ethics"
+            "domain-specific theory",
+            "none_privacy&ethics",
+            "general_demographics"
         ]
     },
     "3174199": {
@@ -4205,8 +4347,9 @@
             "wearable interaction"
         ],
         "tags": [
-            "theoretical",
             "empirical",
+            "theoretical",
+            "diabetes",
             "chronic",
             "no",
             "health",
@@ -4214,16 +4357,17 @@
             "collection",
             "action",
             "social_media",
-            "special_interest_group",
             "snowball",
-            "field_study",
+            "special_interest_group",
             "surveys",
+            "field_study",
             "chronic_management",
             "individual",
             "CHI",
             "none_expert",
             "sensemaking",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "patients"
         ]
     },
     "3154934": {
@@ -4242,22 +4386,23 @@
             "visual and tangible interface"
         ],
         "tags": [
-            "artifact",
             "empirical",
-            "general",
+            "artifact",
+            "general_tracking",
             "yes",
             "neither",
             "reflection",
             "unclear",
-            "lab_study",
             "ethnography",
             "interview",
+            "lab_study",
             "awareness",
             "individual",
             "PervasiveHealth",
             "consultant",
             "none_theory",
-            "protection_measure"
+            "protection_measure",
+            "n/a"
         ]
     },
     "2557039": {
@@ -4281,24 +4426,25 @@
             "no",
             "wellness",
             "integration",
+            "preparation",
+            "collection",
             "reflection",
             "action",
-            "collection",
-            "preparation",
             "flyer",
             "interview",
-            "curiosity",
-            "chronic_management",
             "specific_goal",
-            "external_rewards",
+            "behavior_change",
+            "curiosity",
             "social",
             "awareness",
-            "behavior_change",
+            "chronic_management",
+            "external_rewards",
             "individual",
             "CHI",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "general_demographics"
         ]
     },
     "3173728": {
@@ -4316,22 +4462,23 @@
         ],
         "tags": [
             "empirical",
-            "general",
+            "general_tracking",
             "no",
             "both",
             "reflection",
-            "flyer",
             "mailing_list",
+            "flyer",
+            "interview",
             "participatory_design",
             "diary_study",
-            "interview",
-            "awareness",
             "behavior_change",
+            "awareness",
             "individual",
             "CHI",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "general_demographics"
         ]
     },
     "3300363": {
@@ -4351,22 +4498,24 @@
         ],
         "tags": [
             "empirical",
+            "bipolar disorder",
             "mental",
             "chronic",
             "no",
             "health",
             "reflection",
-            "special_interest_group",
             "mailing_list",
             "snowball",
-            "participatory_design",
+            "special_interest_group",
             "interview",
+            "participatory_design",
             "chronic_management",
             "individual",
             "CHI",
             "consultant",
             "sensemaking",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "patients"
         ]
     },
     "3264927": {
@@ -4384,24 +4533,26 @@
             "self-tracking"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
+            "liver cirrhosis",
             "chronic",
             "yes",
             "health",
             "collection",
-            "flyer",
             "mailing_list",
+            "flyer",
             "special_interest_group",
-            "lab_study",
             "focus group",
+            "lab_study",
             "chronic_management",
             "health_provider",
             "individual",
             "Ubicomp",
             "author",
             "participant",
-            "none_theory"
+            "none_theory",
+            "general_demographics"
         ]
     },
     "2858445": {
@@ -4429,15 +4580,16 @@
             "snowball",
             "interview",
             "literature_review",
-            "chronic_management",
             "specific_goal",
+            "chronic_management",
             "health_provider",
             "individual",
             "CHI",
             "participant",
             "none_theory",
+            "data_sharing",
             "data_control",
-            "data_sharing"
+            "clinicians"
         ]
     },
     "2557220": {
@@ -4455,21 +4607,22 @@
             "smartphone"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "sleep",
             "no",
             "wellness",
             "collection",
             "unclear",
             "field_study",
-            "awareness",
             "behavior_change",
+            "awareness",
             "individual",
             "CHI",
             "none_expert",
             "none_theory",
-            "protection_measure"
+            "protection_measure",
+            "general_demographics"
         ]
     },
     "3010919": {
@@ -4500,7 +4653,8 @@
             "OzCHI",
             "author",
             "none_theory",
-            "ethics_broadly"
+            "ethics_broadly",
+            "general_demographics"
         ]
     },
     "2858055": {
@@ -4520,26 +4674,27 @@
             "software trial"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "other",
             "no",
             "neither",
             "reflection",
-            "collection",
             "integration",
+            "collection",
             "action",
             "unclear",
             "field_study",
             "interview",
-            "awareness",
-            "behavior_change",
             "curiosity",
+            "behavior_change",
+            "awareness",
             "individual",
             "CHI",
             "none_expert",
             "none_theory",
-            "data_implications"
+            "data_implications",
+            "students"
         ]
     },
     "2804269": {
@@ -4564,10 +4719,10 @@
             "no",
             "wellness",
             "integration",
+            "preparation",
+            "collection",
             "reflection",
             "action",
-            "collection",
-            "preparation",
             "social_media",
             "mailing_list",
             "snowball",
@@ -4578,7 +4733,8 @@
             "Ubicomp",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "general_demographics"
         ]
     },
     "3064714": {
@@ -4598,8 +4754,8 @@
             "weddings"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "other",
             "yes",
             "neither",
@@ -4607,11 +4763,11 @@
             "collection",
             "preparation",
             "none_recruitment",
-            "field_study",
-            "interview",
             "ethnography",
-            "design",
             "artifact_analysis",
+            "design",
+            "interview",
+            "field_study",
             "having_record",
             "social",
             "family",
@@ -4619,7 +4775,9 @@
             "DIS",
             "participant",
             "personal informatics model",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "general_demographics",
+            "families"
         ]
     },
     "2896363": {
@@ -4648,7 +4806,8 @@
             "DH",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "social media users"
         ]
     },
     "2858103": {
@@ -4667,22 +4826,23 @@
         ],
         "tags": [
             "empirical",
-            "location",
             "other",
             "mental",
+            "location",
             "no",
             "neither",
             "collection",
             "social_media",
             "snowball",
-            "artifact_analysis",
             "interview",
+            "artifact_analysis",
             "having_record",
             "individual",
             "CHI",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "general_demographics"
         ]
     },
     "3025589": {
@@ -4706,17 +4866,18 @@
             "wellness",
             "reflection",
             "expert_helper",
+            "field_study",
             "video recordings",
             "observations",
-            "field_study",
-            "chronic_management",
             "behavior_change",
+            "chronic_management",
             "individual",
             "CHI",
             "author",
             "participant",
             "boundary-negotiating artifacts",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "patients"
         ]
     },
     "3098532": {
@@ -4735,21 +4896,22 @@
         ],
         "tags": [
             "artifact",
-            "mental",
             "physical activity",
+            "mental",
             "sleep",
             "no",
             "wellness",
             "collection",
             "mailing_list",
-            "field_study",
             "surveys",
+            "field_study",
             "none_motivation",
             "individual",
             "MobileHCI",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "general_demographics"
         ]
     },
     "2858173": {
@@ -4773,17 +4935,18 @@
             "neither",
             "reflection",
             "action",
-            "flyer",
             "social_media",
-            "observations",
+            "flyer",
             "field_study",
             "interview",
+            "observations",
             "social",
             "individual",
             "CHI",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "general_demographics"
         ]
     },
     "2882873": {
@@ -4802,26 +4965,27 @@
         ],
         "tags": [
             "opinion",
-            "weight",
             "food",
             "physical activity",
+            "weight",
             "no",
             "wellness",
             "integration",
+            "preparation",
+            "collection",
             "reflection",
             "action",
-            "collection",
-            "preparation",
             "none_recruitment",
             "case_study",
             "ethnography",
-            "behavior_change",
             "specific_goal",
+            "behavior_change",
             "individual",
             "CA",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "autoethnographic"
         ]
     },
     "3321527": {
@@ -4858,7 +5022,9 @@
             "none_expert",
             "tam",
             "other theory of technology use",
-            "privacy_broadly"
+            "privacy_broadly",
+            "university staff",
+            "students"
         ]
     },
     "2806252": {
@@ -4881,17 +5047,18 @@
             "no",
             "neither",
             "reflection",
-            "collection",
             "integration",
+            "collection",
             "none_recruitment",
             "field_study",
-            "awareness",
             "specific_goal",
+            "awareness",
             "individual",
             "MM",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "n/a"
         ]
     },
     "2826204": {
@@ -4917,15 +5084,16 @@
             "wellness",
             "none_li",
             "unclear",
-            "lab_study",
-            "field_study",
             "surveys",
+            "field_study",
+            "lab_study",
             "none_motivation",
             "individual",
             "PervasiveHealth",
             "author",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "general_demographics"
         ]
     },
     "3205997": {
@@ -4956,7 +5124,8 @@
             "none_expert",
             "none_theory",
             "protection_measure",
-            "data_control"
+            "data_control",
+            "n/a"
         ]
     },
     "2557372": {
@@ -4978,31 +5147,32 @@
         ],
         "tags": [
             "empirical",
+            "general_tracking",
+            "physical activity",
+            "mental",
             "weight",
             "food",
-            "mental",
-            "physical activity",
             "sleep",
-            "general",
             "no",
             "both",
             "integration",
+            "preparation",
+            "collection",
             "reflection",
             "action",
-            "collection",
-            "preparation",
             "none_recruitment",
-            "video recordings",
             "public_data",
-            "awareness",
-            "behavior_change",
+            "video recordings",
             "curiosity",
             "specific_goal",
+            "behavior_change",
+            "awareness",
             "individual",
             "CHI",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "general_demographics"
         ]
     },
     "3240187": {
@@ -5021,27 +5191,28 @@
             "well-being"
         ],
         "tags": [
-            "artifact",
             "empirical",
-            "productivity",
-            "mental",
+            "artifact",
             "physical activity",
+            "mental",
             "sleep",
+            "productivity",
             "no",
             "wellness",
             "reflection",
             "collection",
             "unclear",
-            "participatory_design",
-            "observations",
-            "interview",
             "surveys",
+            "interview",
+            "observations",
+            "participatory_design",
             "awareness",
             "individual",
             "NordiCHI",
             "none_expert",
             "tam",
-            "data_implications"
+            "data_implications",
+            "workers"
         ]
     },
     "2485822": {
@@ -5069,16 +5240,17 @@
             "wellness",
             "reflection",
             "unclear",
-            "participatory_design",
             "observations",
+            "participatory_design",
+            "curiosity",
             "external_rewards",
             "social",
-            "curiosity",
             "individual",
             "IDC",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "students"
         ]
     },
     "3025980": {
@@ -5099,25 +5271,26 @@
             "self-monitoring"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "physical activity",
             "no",
             "wellness",
             "reflection",
-            "collection",
             "integration",
+            "collection",
             "snowball",
             "field_study",
             "interview",
-            "external_rewards",
-            "behavior_change",
             "curiosity",
+            "behavior_change",
+            "external_rewards",
             "individual",
             "CHI",
             "none_expert",
             "goal-setting",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "general_demographics"
         ]
     },
     "3143720": {
@@ -5152,7 +5325,8 @@
             "IMS",
             "none_expert",
             "none_theory",
-            "data_implications"
+            "data_implications",
+            "n/a"
         ]
     },
     "3311846": {
@@ -5172,8 +5346,8 @@
             "social health"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "other",
             "no",
             "neither",
@@ -5185,7 +5359,8 @@
             "AH",
             "none_expert",
             "none_theory",
-            "protection_measure"
+            "protection_measure",
+            "n/a"
         ]
     },
     "2998219": {
@@ -5220,7 +5395,8 @@
             "CSCW",
             "none_expert",
             "none_theory",
-            "data_implications"
+            "data_implications",
+            "general_demographics"
         ]
     },
     "2826166": {
@@ -5254,7 +5430,8 @@
             "PervasiveHealth",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "n/a"
         ]
     },
     "3275119": {
@@ -5275,14 +5452,14 @@
         ],
         "tags": [
             "empirical",
-            "mental",
             "physical activity",
+            "mental",
             "sleep",
             "yes",
             "wellness",
             "reflection",
-            "collection",
             "integration",
+            "collection",
             "unclear",
             "participatory_design",
             "artifact_analysis",
@@ -5291,7 +5468,8 @@
             "Mindtrek",
             "participant",
             "tam",
-            "data_implications"
+            "data_implications",
+            "workers"
         ]
     },
     "2702502": {
@@ -5306,8 +5484,8 @@
             ""
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "heartrate",
             "no",
             "both",
@@ -5319,7 +5497,8 @@
             "CHI",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "students"
         ]
     },
     "2460302": {
@@ -5339,25 +5518,27 @@
             "reflective learning"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "classroom",
             "yes",
             "neither",
             "reflection",
-            "collection",
             "integration",
+            "collection",
             "action",
             "unclear",
-            "interview",
             "surveys",
+            "interview",
             "behavior_change",
             "domain_expert",
             "peers_coworkers",
             "LAK",
             "participant",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "general_demographics",
+            "students"
         ]
     },
     "3194662": {
@@ -5390,7 +5571,8 @@
             "DH",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "social media users"
         ]
     },
     "2883888": {
@@ -5410,27 +5592,28 @@
             "visualization"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "mental",
             "yes",
             "neither",
             "reflection",
-            "collection",
             "integration",
+            "collection",
             "action",
             "unclear",
-            "participatory_design",
+            "surveys",
             "field_study",
             "interview",
-            "surveys",
+            "participatory_design",
             "behavior_change",
             "domain_expert",
             "peers_coworkers",
             "LAK",
             "participant",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "n/a"
         ]
     },
     "3174058": {
@@ -5451,14 +5634,14 @@
             "workflows"
         ],
         "tags": [
-            "theoretical",
             "empirical",
+            "theoretical",
             "chronic",
             "yes",
             "health",
             "reflection",
-            "collection",
             "integration",
+            "collection",
             "action",
             "snowball",
             "interview",
@@ -5469,7 +5652,8 @@
             "author",
             "participant",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "clinicians"
         ]
     },
     "2971497": {
@@ -5490,8 +5674,9 @@
             "whiplash"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
+            "whiplash",
             "chronic",
             "no",
             "health",
@@ -5500,13 +5685,14 @@
             "action",
             "unclear",
             "lab_study",
-            "chronic_management",
             "behavior_change",
+            "chronic_management",
             "individual",
             "NordiCHI",
             "none_expert",
             "other social relationship theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "patients"
         ]
     },
     "3159574": {
@@ -5527,21 +5713,22 @@
             "theater"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "other",
             "yes",
             "neither",
             "none_li",
             "unclear",
-            "participatory_design",
             "interview",
+            "participatory_design",
             "none_motivation",
             "individual",
             "SIGCSE",
             "participant",
             "none_theory",
-            "data_control"
+            "data_control",
+            "students"
         ]
     },
     "3274362": {
@@ -5571,19 +5758,20 @@
             "no",
             "neither",
             "reflection",
-            "collection",
             "integration",
+            "collection",
             "action",
             "unclear",
             "ethnography",
-            "observations",
             "interview",
+            "observations",
             "behavior_change",
             "individual",
             "CSCW",
             "none_expert",
             "none_theory",
-            "data_control"
+            "data_control",
+            "gamers"
         ]
     },
     "3025591": {
@@ -5612,20 +5800,21 @@
             "no",
             "wellness",
             "integration",
+            "preparation",
+            "collection",
             "reflection",
             "action",
-            "collection",
-            "preparation",
             "unclear",
+            "surveys",
             "lab_study",
             "interview",
-            "surveys",
             "specific_goal",
             "individual",
             "CHI",
             "none_expert",
             "none_theory",
-            "data_implications"
+            "data_implications",
+            "general_demographics"
         ]
     },
     "3154870": {
@@ -5649,16 +5838,17 @@
         ],
         "tags": [
             "empirical",
+            "spinal cord injury",
             "chronic",
             "yes",
             "health",
             "reflection",
-            "collection",
             "integration",
+            "collection",
             "action",
             "unclear",
-            "public_data",
             "focus group",
+            "public_data",
             "interview",
             "chronic_management",
             "health_provider",
@@ -5666,7 +5856,10 @@
             "PervasiveHealth",
             "participant",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "clinicians",
+            "caregivers",
+            "patients"
         ]
     },
     "3080545": {
@@ -5692,8 +5885,8 @@
             "quantified-self"
         ],
         "tags": [
-            "theoretical",
             "artifact",
+            "theoretical",
             "food",
             "no",
             "health",
@@ -5706,7 +5899,8 @@
             "ICMR",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "n/a"
         ]
     },
     "3186062": {
@@ -5738,15 +5932,16 @@
             "wellness",
             "collection",
             "none_recruitment",
-            "observations",
             "log_analysis",
+            "observations",
             "behavior_change",
             "none_involved",
             "individual",
             "WWW",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "n/a"
         ]
     },
     "2504407": {
@@ -5787,7 +5982,8 @@
             "PETRA",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "n/a"
         ]
     },
     "3300711": {
@@ -5817,8 +6013,8 @@
             "no",
             "neither",
             "reflection",
-            "collection",
             "integration",
+            "collection",
             "none_recruitment",
             "case_study",
             "specific_goal",
@@ -5826,7 +6022,8 @@
             "CHI",
             "none_expert",
             "foucault self-care",
-            "ethics_broadly"
+            "ethics_broadly",
+            "n/a"
         ]
     },
     "3186161": {
@@ -5864,7 +6061,8 @@
             "WWW",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "n/a"
         ]
     },
     "2674446": {
@@ -5895,8 +6093,8 @@
             "wrist"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "physical activity",
             "no",
             "wellness",
@@ -5909,7 +6107,8 @@
             "PETRA",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "n/a"
         ]
     },
     "3174038": {
@@ -5932,23 +6131,24 @@
             "speculative design"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "other",
             "yes",
             "neither",
             "none_li",
             "special_interest_group",
-            "case_study",
-            "design",
-            "interview",
             "surveys",
+            "case_study",
+            "interview",
+            "design",
             "none_motivation",
             "individual",
             "CHI",
             "author",
             "none_theory",
-            "data_control"
+            "data_control",
+            "general_demographics"
         ]
     },
     "2686912": {
@@ -5966,28 +6166,29 @@
             "wellness"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "mental",
             "sleep",
             "no",
             "wellness",
             "reflection",
-            "collection",
             "integration",
+            "collection",
             "action",
             "unclear",
-            "participatory_design",
-            "field_study",
-            "interview",
-            "focus group",
             "lab_study",
+            "focus group",
+            "participatory_design",
+            "interview",
+            "field_study",
             "behavior_change",
             "individual",
             "PervasiveHealth",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "older adults"
         ]
     },
     "2998365": {
@@ -6013,16 +6214,17 @@
             "wellness",
             "none_li",
             "snowball",
-            "participatory_design",
             "field_study",
             "interview",
-            "behavior_change",
+            "participatory_design",
             "curiosity",
+            "behavior_change",
             "individual",
             "CSCW",
             "participant",
             "none_theory",
-            "privacy_broadly"
+            "privacy_broadly",
+            "general_demographics"
         ]
     },
     "2627416": {
@@ -6039,14 +6241,14 @@
             "privacy"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "location",
             "no",
             "neither",
             "none_li",
-            "flyer",
             "mailing_list",
+            "flyer",
             "field_study",
             "external_rewards",
             "social",
@@ -6054,7 +6256,8 @@
             "WiSec",
             "none_expert",
             "none_theory",
-            "data_implications"
+            "data_implications",
+            "general_demographics"
         ]
     },
     "2534536": {
@@ -6072,8 +6275,8 @@
             "smartphone sensing"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "sleep",
             "no",
             "wellness",
@@ -6085,7 +6288,8 @@
             "PervasiveHealth",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "students"
         ]
     },
     "3025510": {
@@ -6107,23 +6311,24 @@
             "no",
             "wellness",
             "integration",
+            "preparation",
+            "collection",
             "reflection",
             "action",
-            "collection",
-            "preparation",
             "social_media",
             "mailing_list",
             "snowball",
-            "interview",
             "surveys",
-            "awareness",
-            "external_rewards",
+            "interview",
             "behavior_change",
+            "external_rewards",
+            "awareness",
             "individual",
             "CHI",
             "none_expert",
             "none_theory",
-            "data_implications"
+            "data_implications",
+            "workers"
         ]
     },
     "3064697": {
@@ -6141,27 +6346,29 @@
             "self-tracking"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "mental",
             "yes",
             "wellness",
             "reflection",
             "collection",
+            "snowball",
             "flyer",
             "mailing_list",
-            "snowball",
             "focus group",
             "field_study",
             "interview",
-            "behavior_change",
             "creativity",
+            "behavior_change",
             "health_provider",
             "individual",
             "DIS",
             "participant",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "students",
+            "health experts"
         ]
     },
     "3014058": {
@@ -6180,27 +6387,28 @@
             "work performance"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "mental",
             "no",
             "wellness",
             "reflection",
-            "collection",
             "integration",
+            "collection",
             "action",
             "special_interest_group",
+            "surveys",
             "field_study",
             "interview",
-            "surveys",
-            "awareness",
-            "behavior_change",
             "social",
+            "behavior_change",
+            "awareness",
             "individual",
             "TOCHI",
             "none_expert",
             "none_theory",
-            "data_sharing"
+            "data_sharing",
+            "workers"
         ]
     },
     "2858148": {
@@ -6223,21 +6431,22 @@
             "no",
             "wellness",
             "integration",
+            "preparation",
+            "collection",
             "reflection",
             "action",
-            "collection",
-            "preparation",
             "unclear",
-            "diary_study",
+            "surveys",
             "field_study",
             "interview",
-            "surveys",
+            "diary_study",
             "none_motivation",
             "individual",
             "CHI",
             "none_expert",
             "other social relationship theory",
-            "data_control"
+            "data_control",
+            "students"
         ]
     },
     "3300452": {
@@ -6256,23 +6465,25 @@
         ],
         "tags": [
             "empirical",
+            "chronic pain",
             "chronic",
             "no",
             "health",
             "reflection",
-            "collection",
             "integration",
+            "collection",
             "special_interest_group",
+            "surveys",
             "public_data",
             "field_study",
             "literature_review",
-            "surveys",
             "chronic_management",
             "individual",
             "CHI",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "patients"
         ]
     },
     "3300359": {
@@ -6292,19 +6503,21 @@
         ],
         "tags": [
             "empirical",
+            "vulvodynia",
             "chronic",
             "no",
             "health",
             "none_li",
             "social_media",
-            "observations",
             "interview",
+            "observations",
             "chronic_management",
             "individual",
             "CHI",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "patients"
         ]
     },
     "2414610": {
@@ -6328,18 +6541,19 @@
             "yes",
             "wellness",
             "reflection",
-            "collection",
             "integration",
+            "collection",
             "action",
             "mailing_list",
             "interview",
-            "behavior_change",
             "specific_goal",
+            "behavior_change",
             "individual",
             "OzCHI",
             "author",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "university staff"
         ]
     },
     "3264911": {
@@ -6358,8 +6572,8 @@
             "sleep recommendations"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "sleep",
             "no",
             "wellness",
@@ -6367,16 +6581,17 @@
             "collection",
             "action",
             "mailing_list",
+            "surveys",
             "log_analysis",
             "field_study",
-            "surveys",
-            "behavior_change",
             "specific_goal",
+            "behavior_change",
             "individual",
             "Ubicomp",
             "none_expert",
             "other social relationship theory",
-            "privacy_broadly"
+            "privacy_broadly",
+            "general_demographics"
         ]
     },
     "2819944": {
@@ -6405,14 +6620,15 @@
             "collection",
             "action",
             "unclear",
-            "observations",
             "interview",
+            "observations",
             "external_rewards",
             "individual",
             "CSCW",
             "none_expert",
             "bronfenbrenner social ecological",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "workers"
         ]
     },
     "3294035": {
@@ -6436,19 +6652,21 @@
         "tags": [
             "empirical",
             "chronic",
+            "heart failure",
             "no",
             "health",
             "collection",
             "unclear",
             "lab_study",
             "interview",
-            "chronic_management",
             "specific_goal",
+            "chronic_management",
             "individual",
             "J Usability",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "general_demographics"
         ]
     },
     "2998276": {
@@ -6467,25 +6685,27 @@
             "symptom triggers"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
+            "irritable bowel syndrome",
             "chronic",
             "yes",
             "health",
             "reflection",
             "action",
             "prior_study",
-            "observations",
             "interview",
-            "chronic_management",
+            "observations",
             "behavior_change",
+            "chronic_management",
             "health_provider",
             "individual",
             "CSCW",
             "author",
             "participant",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "patients"
         ]
     },
     "2998206": {
@@ -6507,9 +6727,9 @@
         ],
         "tags": [
             "empirical",
-            "blood_pressure",
             "physical activity",
             "chronic",
+            "blood_pressure",
             "yes",
             "wellness",
             "reflection",
@@ -6517,15 +6737,17 @@
             "action",
             "unclear",
             "interview",
-            "awareness",
-            "chronic_management",
             "curiosity",
+            "chronic_management",
+            "awareness",
             "health_provider",
             "individual",
             "CSCW",
             "participant",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "caregivers",
+            "older adults"
         ]
     },
     "2785877": {
@@ -6545,26 +6767,27 @@
             "self-tracking"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "smoking",
             "yes",
             "wellness",
             "reflection",
-            "collection",
             "integration",
+            "collection",
             "action",
             "unclear",
+            "surveys",
             "field_study",
             "interview",
-            "surveys",
-            "behavior_change",
             "specific_goal",
+            "behavior_change",
             "individual",
             "MobileHCI",
             "consultant",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "smokers"
         ]
     },
     "2702230": {
@@ -6586,19 +6809,21 @@
             "no",
             "wellness",
             "reflection",
-            "collection",
             "integration",
+            "collection",
             "action",
             "social_media",
+            "surveys",
             "public_data",
             "diary_study",
-            "surveys",
             "behavior_change",
             "individual",
             "CHI",
             "none_expert",
             "other behavior change theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "university staff",
+            "students"
         ]
     },
     "3300900": {
@@ -6628,15 +6853,16 @@
             "wellness",
             "reflection",
             "unclear",
-            "participatory_design",
             "focus group",
             "interview",
+            "participatory_design",
             "behavior_change",
             "health_provider",
             "CHI",
             "participant",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "health experts"
         ]
     },
     "2909652": {
@@ -6654,14 +6880,14 @@
             "mhealth"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "none_domain",
             "yes",
             "health",
             "reflection",
-            "action",
             "integration",
+            "action",
             "unclear",
             "field_study",
             "interview",
@@ -6670,7 +6896,8 @@
             "ICTD",
             "participant",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "health experts"
         ]
     },
     "2998303": {
@@ -6696,6 +6923,7 @@
         ],
         "tags": [
             "empirical",
+            "diabetes",
             "chronic",
             "no",
             "health",
@@ -6703,17 +6931,18 @@
             "collection",
             "action",
             "unclear",
-            "public_data",
-            "observations",
-            "interview",
             "surveys",
+            "public_data",
+            "interview",
+            "observations",
             "chronic_management",
             "individual",
             "CSCW",
             "none_expert",
             "none_theory",
+            "data_sharing",
             "data_control",
-            "data_sharing"
+            "patients"
         ]
     },
     "3173827": {
@@ -6733,22 +6962,23 @@
             "self-reflection"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "mental",
             "sleep",
             "no",
             "wellness",
             "reflection",
             "mailing_list",
-            "video recordings",
             "surveys",
+            "video recordings",
             "behavior_change",
             "individual",
             "CHI",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "general_demographics"
         ]
     },
     "3313432": {
@@ -6769,14 +6999,15 @@
             "wellness",
             "none_li",
             "none_recruitment",
-            "log_analysis",
             "surveys",
+            "log_analysis",
             "behavior_change",
             "individual",
             "WWW",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "general_demographics"
         ]
     },
     "2783572": {
@@ -6796,23 +7027,24 @@
             "wearable computing"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "health_behavior",
             "no",
             "wellness",
             "collection",
             "action",
             "flyer",
-            "observations",
-            "field_study",
             "surveys",
+            "field_study",
+            "observations",
             "awareness",
             "individual",
             "BritishHCI",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "general_demographics"
         ]
     },
     "3300475": {
@@ -6840,15 +7072,16 @@
             "action",
             "none_recruitment",
             "literature_review",
-            "chronic_management",
             "behavior_change",
+            "chronic_management",
             "social",
             "none_involved",
             "CHI",
             "none_expert",
             "none_theory",
+            "ethics_broadly",
             "sensitive_domain",
-            "ethics_broadly"
+            "n/a"
         ]
     },
     "2636086": {
@@ -6867,25 +7100,26 @@
             "public displays"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "food",
             "no",
             "wellness",
             "reflection",
-            "collection",
             "integration",
+            "collection",
             "action",
             "flyer",
             "special_interest_group",
-            "field_study",
             "surveys",
+            "field_study",
             "behavior_change",
             "individual",
             "Ubicomp",
             "none_expert",
             "none_theory",
-            "data_control"
+            "data_control",
+            "general_demographics"
         ]
     },
     "3196784": {
@@ -6904,24 +7138,25 @@
             "workspace activity reporting"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "productivity",
             "no",
             "neither",
             "reflection",
             "collection",
             "unclear",
+            "surveys",
             "field_study",
             "interview",
-            "surveys",
             "awareness",
             "individual",
             "DIS",
             "none_expert",
-            "other reflection theory",
             "moon reflection in learning",
-            "none_privacy&ethics"
+            "other reflection theory",
+            "none_privacy&ethics",
+            "general_demographics"
         ]
     },
     "3287069": {
@@ -6938,10 +7173,10 @@
             "travel experiences"
         ],
         "tags": [
-            "artifact",
             "empirical",
-            "location",
+            "artifact",
             "other",
+            "location",
             "no",
             "neither",
             "reflection",
@@ -6949,14 +7184,15 @@
             "snowball",
             "lab_study",
             "interview",
+            "curiosity",
             "awareness",
             "having_record",
-            "curiosity",
             "individual",
             "Ubicomp",
             "none_expert",
             "none_theory",
-            "data_control"
+            "data_control",
+            "general_demographics"
         ]
     },
     "3214273": {
@@ -6977,23 +7213,25 @@
             "self-learning"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "physical activity",
             "no",
             "wellness",
             "reflection",
             "social_media",
             "mailing_list",
-            "participatory_design",
             "field_study",
-            "awareness",
+            "participatory_design",
             "behavior_change",
+            "awareness",
             "individual",
             "Ubicomp",
             "none_expert",
             "moon reflection in learning",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "general_demographics",
+            "students"
         ]
     },
     "3132024": {
@@ -7029,7 +7267,8 @@
             "Ubicomp",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "patients"
         ]
     },
     "2016662": {
@@ -7047,14 +7286,15 @@
             "visual interface"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
+            "kidney failure",
             "chronic",
             "no",
             "health",
             "reflection",
-            "collection",
             "integration",
+            "collection",
             "action",
             "unclear",
             "field_study",
@@ -7063,7 +7303,8 @@
             "VINCI",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "patients"
         ]
     },
     "2370229": {
@@ -7080,8 +7321,8 @@
             "physical activity"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "physical activity",
             "no",
             "wellness",
@@ -7090,14 +7331,15 @@
             "social_media",
             "special_interest_group",
             "field_study",
-            "awareness",
             "none_motivation",
+            "awareness",
             "family",
             "individual",
             "Ubicomp",
             "none_expert",
             "none_theory",
-            "protection_measure"
+            "protection_measure",
+            "students"
         ]
     },
     "3021354": {
@@ -7118,7 +7360,7 @@
         ],
         "tags": [
             "empirical",
-            "general",
+            "general_tracking",
             "no",
             "wellness",
             "reflection",
@@ -7131,7 +7373,8 @@
             "PervasiveHealth",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "patients"
         ]
     },
     "2482357": {
@@ -7158,7 +7401,8 @@
             "Persuasive",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "n/a"
         ]
     },
     "2305405": {
@@ -7177,21 +7421,22 @@
             "value sensitive design"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "other",
             "no",
             "neither",
             "reflection",
             "unclear",
-            "interview",
             "surveys",
+            "interview",
             "awareness",
             "individual",
             "BritishHCI",
             "none_expert",
             "vsd",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "general_demographics"
         ]
     },
     "2742958": {
@@ -7217,15 +7462,16 @@
             "reflection",
             "integration",
             "none_recruitment",
-            "video recordings",
             "public_data",
-            "behavior_change",
+            "video recordings",
             "curiosity",
+            "behavior_change",
             "none_involved",
             "BritishHCI",
             "none_expert",
             "personal informatics model",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "n/a"
         ]
     },
     "2722008": {
@@ -7248,26 +7494,28 @@
             "wearable"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "other",
             "yes",
             "health",
             "reflection",
-            "collection",
             "integration",
+            "collection",
             "unclear",
-            "observations",
             "field_study",
             "interview",
-            "awareness",
+            "observations",
             "behavior_change",
+            "awareness",
             "domain_expert",
             "individual",
             "AmI",
             "participant",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "children",
+            "patients"
         ]
     },
     "2716533": {
@@ -7288,28 +7536,29 @@
             "user motivation"
         ],
         "tags": [
-            "theoretical",
             "survey",
-            "food",
-            "mental",
+            "theoretical",
             "physical activity",
-            "sleep",
+            "mental",
             "chronic",
+            "food",
+            "sleep",
             "yes",
             "health",
             "collection",
             "unclear",
             "none_study",
-            "awareness",
-            "chronic_management",
             "behavior_change",
+            "chronic_management",
+            "awareness",
             "health_provider",
             "individual",
             "PUC",
             "author",
             "participant",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "n/a"
         ]
     },
     "3292193": {
@@ -7329,8 +7578,8 @@
             "wearable"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "physical activity",
             "no",
             "wellness",
@@ -7343,7 +7592,8 @@
             "OzCHI",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "n/a"
         ]
     },
     "2534544": {
@@ -7358,25 +7608,26 @@
             ""
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "mental",
             "no",
             "wellness",
             "reflection",
             "action",
             "unclear",
-            "lab_study",
             "case_study",
             "field_study",
             "interview",
-            "awareness",
+            "lab_study",
             "behavior_change",
+            "awareness",
             "individual",
             "PervasiveHealth",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "university staff"
         ]
     },
     "1979247": {
@@ -7396,26 +7647,27 @@
             "reflection"
         ],
         "tags": [
-            "artifact",
             "empirical",
-            "general",
+            "artifact",
+            "general_tracking",
             "no",
             "both",
             "reflection",
             "action",
             "special_interest_group",
             "case_study",
-            "field_study",
-            "interview",
-            "video recordings",
             "lab_study",
-            "awareness",
+            "video recordings",
+            "interview",
+            "field_study",
             "behavior_change",
+            "awareness",
             "individual",
             "CHI",
             "none_expert",
             "none_theory",
-            "data_sharing"
+            "data_sharing",
+            "older adults"
         ]
     },
     "3154879": {
@@ -7434,27 +7686,28 @@
             "wearable devices"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "physical activity",
             "no",
             "wellness",
             "reflection",
             "action",
             "flyer",
-            "participatory_design",
-            "interview",
             "surveys",
-            "none_motivation",
-            "curiosity",
-            "external_rewards",
-            "social",
+            "interview",
+            "participatory_design",
             "behavior_change",
+            "curiosity",
+            "social",
+            "none_motivation",
+            "external_rewards",
             "individual",
             "PervasiveHealth",
             "none_expert",
             "none_theory",
-            "protection_measure"
+            "protection_measure",
+            "general_demographics"
         ]
     },
     "2785881": {
@@ -7473,8 +7726,9 @@
             "ubiquitous computing"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
+            "diabetes",
             "chronic",
             "no",
             "health",
@@ -7489,7 +7743,8 @@
             "MobileHCI",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "patients"
         ]
     },
     "2592240": {
@@ -7509,25 +7764,26 @@
             "mobile fitness applications"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "physical activity",
             "no",
             "wellness",
             "reflection",
             "collection",
-            "flyer",
             "snowball",
+            "flyer",
             "field_study",
-            "awareness",
-            "external_rewards",
-            "behavior_change",
             "social",
+            "behavior_change",
+            "external_rewards",
+            "awareness",
             "close_tie",
             "ChineseCHI",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "general_demographics"
         ]
     },
     "2839466": {
@@ -7552,13 +7808,14 @@
             "none_recruitment",
             "participatory_design",
             "literature_review",
-            "awareness",
             "none_motivation",
+            "awareness",
             "none_involved",
             "TEI",
             "none_expert",
             "mezirows theory, adult learning",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "n/a"
         ]
     },
     "2727091": {
@@ -7577,6 +7834,7 @@
         ],
         "tags": [
             "empirical",
+            "bipolar disorder",
             "mental",
             "chronic",
             "no",
@@ -7584,13 +7842,14 @@
             "reflection",
             "unclear",
             "surveys",
-            "awareness",
             "behavior_change",
+            "awareness",
             "individual",
             "PUC",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "patients"
         ]
     },
     "2838823": {
@@ -7614,8 +7873,8 @@
             "television"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "physical activity",
             "mental",
             "no",
@@ -7629,7 +7888,8 @@
             "OzCHI",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "general_demographics"
         ]
     },
     "2466468": {
@@ -7652,16 +7912,17 @@
             "no",
             "health",
             "none_li",
-            "special_interest_group",
             "snowball",
-            "observations",
+            "special_interest_group",
             "interview",
+            "observations",
             "behavior_change",
             "individual",
             "CHI",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "general_demographics"
         ]
     },
     "2145374": {
@@ -7693,7 +7954,8 @@
             "CSCW",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "social media users"
         ]
     },
     "2674123": {
@@ -7713,8 +7975,8 @@
             "virtual reward"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "physical activity",
             "no",
             "wellness",
@@ -7726,9 +7988,10 @@
             "individual",
             "PUC",
             "none_expert",
-            "other behavior change theory",
             "self-determination",
-            "none_privacy&ethics"
+            "other behavior change theory",
+            "none_privacy&ethics",
+            "general_demographics"
         ]
     },
     "3173671": {
@@ -7748,23 +8011,24 @@
             "solo travel"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "other",
             "no",
             "neither",
             "reflection",
             "social_media",
             "mailing_list",
-            "participatory_design",
             "interview",
-            "awareness",
+            "participatory_design",
             "creativity",
+            "awareness",
             "individual",
             "CHI",
             "none_expert",
             "other behavior change theory",
-            "data_sharing"
+            "data_sharing",
+            "general_demographics"
         ]
     },
     "2971494": {
@@ -7796,9 +8060,10 @@
             "individual",
             "NordiCHI",
             "none_expert",
-            "domain-specific theory",
             "mezirows theory, adult learning",
-            "none_privacy&ethics"
+            "domain-specific theory",
+            "none_privacy&ethics",
+            "general_demographics"
         ]
     },
     "2208394": {
@@ -7819,24 +8084,25 @@
             "technology"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "sustainability",
             "no",
             "neither",
             "reflection",
             "collection",
             "flyer",
-            "focus group",
             "surveys",
-            "awareness",
+            "focus group",
             "behavior_change",
+            "awareness",
             "individual",
             "CHI",
             "none_expert",
             "planned behavior",
+            "ethics_broadly",
             "data_control",
-            "ethics_broadly"
+            "students"
         ]
     },
     "3292180": {
@@ -7867,7 +8133,8 @@
             "OzCHI",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "social media users"
         ]
     },
     "2532155": {
@@ -7899,7 +8166,8 @@
             "GI",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "patients"
         ]
     },
     "2030162": {
@@ -7919,8 +8187,8 @@
             "wearable sensor"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "health_behavior",
             "yes",
             "wellness",
@@ -7928,15 +8196,16 @@
             "collection",
             "action",
             "unclear",
-            "lab_study",
-            "field_study",
             "surveys",
+            "field_study",
+            "lab_study",
             "behavior_change",
             "individual",
             "Ubicomp",
             "consultant",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "students"
         ]
     },
     "2513451": {
@@ -7956,28 +8225,29 @@
         ],
         "tags": [
             "empirical",
-            "general",
+            "general_tracking",
             "no",
             "wellness",
             "integration",
+            "preparation",
+            "collection",
             "reflection",
             "action",
-            "collection",
-            "preparation",
+            "database",
             "snowball",
             "special_interest_group",
-            "database",
-            "participatory_design",
-            "interview",
             "surveys",
-            "awareness",
-            "behavior_change",
+            "interview",
+            "participatory_design",
             "specific_goal",
+            "behavior_change",
+            "awareness",
             "individual",
             "ASSETS",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "older adults"
         ]
     },
     "2132180": {
@@ -7995,21 +8265,22 @@
             "visualization"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "other",
             "no",
             "neither",
             "reflection",
             "class_students",
             "field_study",
-            "awareness",
             "curiosity",
+            "awareness",
             "individual",
             "iConference",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "students"
         ]
     },
     "2901799": {
@@ -8028,26 +8299,28 @@
             "wearable technology"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "physical activity",
             "yes",
             "health",
             "reflection",
-            "collection",
             "integration",
+            "collection",
             "action",
             "snowball",
             "lab_study",
-            "participatory_design",
             "interview",
+            "participatory_design",
             "specific_goal",
             "health_provider",
             "DIS",
             "author",
             "participant",
             "none_theory",
-            "data_implications"
+            "data_implications",
+            "clinicians",
+            "patients"
         ]
     },
     "2909267": {
@@ -8065,9 +8338,9 @@
             "plant"
         ],
         "tags": [
-            "theoretical",
-            "artifact",
             "empirical",
+            "artifact",
+            "theoretical",
             "physical activity",
             "no",
             "wellness",
@@ -8077,13 +8350,14 @@
             "snowball",
             "public_data",
             "interview",
-            "behavior_change",
             "specific_goal",
+            "behavior_change",
             "individual",
             "AVI",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "general_demographics"
         ]
     },
     "2330639": {
@@ -8100,23 +8374,24 @@
             "visualization"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "classroom",
             "yes",
             "neither",
             "reflection",
-            "collection",
             "integration",
+            "collection",
             "unclear",
-            "observations",
             "interview",
+            "observations",
             "awareness",
             "individual",
             "LAK",
             "participant",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "students"
         ]
     },
     "2998214": {
@@ -8133,8 +8408,8 @@
             "research methods"
         ],
         "tags": [
-            "methodological",
             "empirical",
+            "methodological",
             "physical activity",
             "no",
             "wellness",
@@ -8148,7 +8423,8 @@
             "CSCW",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "general_demographics"
         ]
     },
     "3240942": {
@@ -8165,8 +8441,8 @@
             "social relationships"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "physical activity",
             "no",
             "wellness",
@@ -8180,7 +8456,8 @@
             "PervasiveHealth",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "students"
         ]
     },
     "3076528": {
@@ -8199,25 +8476,26 @@
             "wearable device"
         ],
         "tags": [
-            "artifact",
             "empirical",
-            "general",
+            "artifact",
+            "general_tracking",
             "yes",
             "wellness",
             "none_li",
             "class_students",
-            "lab_study",
-            "focus group",
-            "interview",
             "surveys",
-            "awareness",
+            "lab_study",
+            "interview",
+            "focus group",
             "behavior_change",
+            "awareness",
             "individual",
             "Computer & Human Behavior",
             "participant",
-            "other behavior change theory",
             "transtheoretical",
-            "none_privacy&ethics"
+            "other behavior change theory",
+            "none_privacy&ethics",
+            "students"
         ]
     },
     "3152772": {
@@ -8237,6 +8515,7 @@
         ],
         "tags": [
             "empirical",
+            "movement rehabilitation",
             "chronic",
             "no",
             "wellness",
@@ -8249,7 +8528,9 @@
             "OzCHI",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "caregivers",
+            "patients"
         ]
     },
     "2858259": {
@@ -8268,22 +8549,24 @@
             "self management"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
+            "autism",
             "chronic",
             "yes",
             "health",
             "reflection",
             "collection",
             "unclear",
-            "participatory_design",
             "field_study",
+            "participatory_design",
             "awareness",
             "individual",
             "CHI",
             "author",
             "none_theory",
-            "data_control"
+            "data_control",
+            "patients"
         ]
     },
     "2686904": {
@@ -8305,8 +8588,8 @@
             "voice"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "mental",
             "no",
             "wellness",
@@ -8318,7 +8601,8 @@
             "PervasiveHealth",
             "none_expert",
             "none_theory",
-            "protection_measure"
+            "protection_measure",
+            "students"
         ]
     },
     "3210826": {
@@ -8339,20 +8623,21 @@
         ],
         "tags": [
             "survey",
-            "location",
             "other",
+            "location",
             "no",
             "neither",
             "reflection",
             "none_recruitment",
-            "video recordings",
             "public_data",
+            "video recordings",
             "none_motivation",
             "none_involved",
             "TVX",
             "none_expert",
             "none_theory",
-            "data_control"
+            "data_control",
+            "n/a"
         ]
     },
     "2856790": {
@@ -8371,8 +8656,8 @@
             "wisdom of crowds"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "finances",
             "no",
             "neither",
@@ -8384,7 +8669,8 @@
             "IUI",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "general_demographics"
         ]
     },
     "2807554": {
@@ -8412,10 +8698,11 @@
             "individual",
             "Ubicomp",
             "none_expert",
-            "other social relationship theory",
             "planned behavior",
             "goal-setting",
-            "none_privacy&ethics"
+            "other social relationship theory",
+            "none_privacy&ethics",
+            "general_demographics"
         ]
     },
     "3173745": {
@@ -8434,9 +8721,9 @@
             "wellbeing"
         ],
         "tags": [
-            "theoretical",
             "empirical",
-            "general",
+            "theoretical",
+            "general_tracking",
             "no",
             "neither",
             "reflection",
@@ -8445,16 +8732,17 @@
             "social_media",
             "mailing_list",
             "snowball",
-            "interview",
             "surveys",
-            "awareness",
+            "interview",
             "behavior_change",
+            "awareness",
             "individual",
             "CHI",
             "none_expert",
-            "goal-setting",
             "personal informatics model",
-            "none_privacy&ethics"
+            "goal-setting",
+            "none_privacy&ethics",
+            "general_demographics"
         ]
     },
     "2458801": {
@@ -8472,14 +8760,14 @@
             "smartphone"
         ],
         "tags": [
-            "artifact",
             "empirical",
-            "location",
+            "artifact",
             "other",
+            "location",
             "no",
             "neither",
-            "collection",
             "integration",
+            "collection",
             "none_recruitment",
             "none_study",
             "awareness",
@@ -8487,7 +8775,8 @@
             "PUC",
             "none_expert",
             "none_theory",
-            "protection_measure"
+            "protection_measure",
+            "n/a"
         ]
     },
     "3174709": {
@@ -8504,25 +8793,27 @@
         ],
         "tags": [
             "empirical",
+            "diabetes",
             "chronic",
             "yes",
             "health",
             "reflection",
-            "action",
             "integration",
+            "action",
             "expert_helper",
-            "observations",
             "focus group",
             "interview",
+            "observations",
             "chronic_management",
             "individual",
             "Biomedical Informatics",
             "author",
             "participant",
             "self-experimentation",
-            "sensemaking",
             "personal informatics model",
-            "none_privacy&ethics"
+            "sensemaking",
+            "none_privacy&ethics",
+            "patients"
         ]
     },
     "2807522": {
@@ -8544,20 +8835,21 @@
             "no",
             "both",
             "reflection",
-            "collection",
             "integration",
+            "collection",
             "mailing_list",
             "snowball",
-            "diary_study",
+            "surveys",
             "public_data",
             "interview",
-            "surveys",
+            "diary_study",
             "awareness",
             "individual",
             "Ubicomp",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "students"
         ]
     },
     "3090091": {
@@ -8576,28 +8868,29 @@
             "physical activity trackers"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "physical activity",
             "no",
             "wellness",
             "reflection",
-            "action",
             "integration",
+            "action",
             "social_media",
             "mailing_list",
+            "surveys",
             "lab_study",
             "interview",
-            "surveys",
-            "awareness",
+            "curiosity",
             "none_motivation",
             "behavior_change",
-            "curiosity",
+            "awareness",
             "individual",
             "Ubicomp",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "general_demographics"
         ]
     },
     "2807528": {
@@ -8614,26 +8907,27 @@
             "social sensing"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "productivity",
             "yes",
             "neither",
             "reflection",
-            "collection",
             "integration",
+            "collection",
             "snowball",
+            "surveys",
             "field_study",
             "interview",
-            "surveys",
-            "awareness",
             "curiosity",
+            "awareness",
             "individual",
             "Ubicomp",
             "participant",
-            "domain-specific theory",
             "fogg",
-            "data_implications"
+            "domain-specific theory",
+            "data_implications",
+            "workers"
         ]
     },
     "2559091": {
@@ -8652,8 +8946,8 @@
             "sustainable hci"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "sustainability",
             "no",
             "neither",
@@ -8661,14 +8955,15 @@
             "action",
             "none_recruitment",
             "field_study",
-            "awareness",
             "behavior_change",
+            "awareness",
             "close_tie",
             "individual",
             "PUC",
             "none_expert",
             "planned behavior",
-            "data_sharing"
+            "data_sharing",
+            "general_demographics"
         ]
     },
     "3196769": {
@@ -8692,8 +8987,8 @@
             "no",
             "wellness",
             "reflection",
-            "collection",
             "integration",
+            "collection",
             "preparation",
             "unclear",
             "participatory_design",
@@ -8702,7 +8997,8 @@
             "DIS",
             "none_expert",
             "other social relationship theory",
-            "sensitive_domain"
+            "sensitive_domain",
+            "families"
         ]
     },
     "2424540": {
@@ -8721,24 +9017,25 @@
             "value sensitive design"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "none_domain",
             "no",
             "neither",
             "reflection",
             "collection",
             "unclear",
-            "participatory_design",
+            "surveys",
             "field_study",
             "interview",
-            "surveys",
+            "participatory_design",
             "awareness",
             "individual",
             "Ethics & Information Technology",
             "none_expert",
             "vsd",
-            "privacy_broadly"
+            "privacy_broadly",
+            "general_demographics"
         ]
     },
     "3240226": {
@@ -8766,13 +9063,14 @@
             "collection",
             "none_recruitment",
             "public_data",
-            "social",
             "curiosity",
+            "social",
             "none_involved",
             "NordiCHI",
             "none_expert",
             "domain-specific theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "n/a"
         ]
     },
     "2702234": {
@@ -8801,9 +9099,10 @@
             "none_involved",
             "CHI",
             "none_expert",
-            "other reflection theory",
             "schon",
-            "none_privacy&ethics"
+            "other reflection theory",
+            "none_privacy&ethics",
+            "n/a"
         ]
     },
     "2617574": {
@@ -8821,26 +9120,28 @@
             "wellness"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "childcare",
             "yes",
             "both",
             "reflection",
-            "collection",
             "integration",
+            "collection",
             "action",
             "expert_helper",
             "field_study",
-            "awareness",
             "behavior_change",
+            "awareness",
+            "family",
             "health_provider",
             "close_tie",
-            "family",
             "individual",
             "TOCHI",
             "author",
-            "none_theory"
+            "none_theory",
+            "caregivers",
+            "families"
         ]
     },
     "3209220": {
@@ -8858,8 +9159,8 @@
             "user interface"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "physical activity",
             "no",
             "wellness",
@@ -8871,7 +9172,8 @@
             "UMAP",
             "none_expert",
             "domain-specific theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "general_demographics"
         ]
     },
     "2513012": {
@@ -8900,7 +9202,8 @@
             "IE",
             "none_expert",
             "goal-setting",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "n/a"
         ]
     },
     "2915549": {
@@ -8929,16 +9232,17 @@
             "collection",
             "social_media",
             "special_interest_group",
-            "participatory_design",
-            "interview",
             "surveys",
+            "interview",
+            "participatory_design",
             "awareness",
             "chronic_management",
             "individual",
             "Cognition Technology",
             "none_expert",
             "none_theory",
-            "sensitive_domain"
+            "sensitive_domain",
+            "n/a"
         ]
     },
     "3025570": {
@@ -8957,30 +9261,31 @@
             "self-logged data"
         ],
         "tags": [
-            "artifact",
             "empirical",
-            "weight",
-            "blood_pressure",
-            "food",
-            "mental",
+            "artifact",
             "physical activity",
+            "mental",
+            "weight",
+            "food",
+            "blood_pressure",
             "sleep",
             "yes",
             "wellness",
             "reflection",
             "expert_helper",
-            "participatory_design",
-            "observations",
             "field_study",
-            "chronic_management",
+            "observations",
+            "participatory_design",
             "behavior_change",
+            "chronic_management",
             "health_provider",
             "individual",
             "CHI",
             "author",
             "participant",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "patients"
         ]
     },
     "3173945": {
@@ -9004,19 +9309,20 @@
             "yes",
             "neither",
             "integration",
+            "preparation",
+            "collection",
             "reflection",
             "action",
-            "collection",
-            "preparation",
             "special_interest_group",
-            "participatory_design",
             "interview",
+            "participatory_design",
             "behavior_change",
             "individual",
             "CHI",
             "participant",
             "none_theory",
-            "data_sharing"
+            "data_sharing",
+            "workers"
         ]
     },
     "2858240": {
@@ -9043,15 +9349,17 @@
             "health",
             "none_li",
             "none_recruitment",
-            "observations",
             "interview",
+            "observations",
             "chronic_management",
             "family",
             "individual",
             "CHI",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "caregivers",
+            "patients"
         ]
     },
     "3134714": {
@@ -9070,26 +9378,27 @@
             "workplace awareness"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "productivity",
             "yes",
             "neither",
             "reflection",
-            "action",
             "integration",
+            "action",
             "expert_helper",
-            "participatory_design",
-            "field_study",
             "surveys",
-            "awareness",
+            "field_study",
+            "participatory_design",
             "behavior_change",
+            "awareness",
             "individual",
             "CSCW",
             "participant",
             "transtheoretical",
+            "data_sharing",
             "data_implications",
-            "data_sharing"
+            "workers"
         ]
     },
     "2973118": {
@@ -9108,23 +9417,24 @@
         ],
         "tags": [
             "empirical",
-            "general",
+            "general_tracking",
             "yes",
             "wellness",
             "reflection",
-            "collection",
             "integration",
+            "collection",
             "action",
             "mailing_list",
             "snowball",
-            "diary_study",
             "interview",
+            "diary_study",
             "none_motivation",
             "individual",
             "Human-Computer Studies",
             "participant",
             "none_theory",
-            "data_control"
+            "data_control",
+            "general_demographics"
         ]
     },
     "2598598": {
@@ -9153,7 +9463,8 @@
             "DIS",
             "none_expert",
             "schon",
-            "data_implications"
+            "data_implications",
+            "n/a"
         ]
     },
     "3274364": {
@@ -9169,26 +9480,27 @@
             "social computing"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "productivity",
             "no",
             "neither",
             "integration",
+            "preparation",
+            "collection",
             "reflection",
             "action",
-            "collection",
-            "preparation",
             "public",
             "log_analysis",
             "behavior_change",
             "individual",
             "CSCW",
             "none_expert",
-            "other social relationship theory",
             "reasoned action",
             "goal-setting",
-            "protection_measure"
+            "other social relationship theory",
+            "protection_measure",
+            "general_demographics"
         ]
     },
     "2895015": {
@@ -9209,12 +9521,12 @@
         ],
         "tags": [
             "survey",
+            "health_behavior",
+            "physical activity",
             "weight",
             "sustainability",
-            "health_behavior",
-            "food",
-            "physical activity",
             "productivity",
+            "food",
             "no",
             "wellness",
             "reflection",
@@ -9226,7 +9538,8 @@
             "Computer & Human Behavior",
             "none_expert",
             "none_theory",
-            "ethics_broadly"
+            "ethics_broadly",
+            "n/a"
         ]
     },
     "2344357": {
@@ -9242,8 +9555,8 @@
         ],
         "tags": [
             "survey",
-            "childcare",
             "physical activity",
+            "childcare",
             "no",
             "wellness",
             "none_li",
@@ -9255,7 +9568,8 @@
             "Foundations & Trends",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "n/a"
         ]
     },
     "2819921": {
@@ -9283,7 +9597,8 @@
             "CSCW",
             "author",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "social media users"
         ]
     },
     "3161601": {
@@ -9302,8 +9617,8 @@
             "wordometer"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "other",
             "no",
             "neither",
@@ -9315,7 +9630,8 @@
             "Ubicomp",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "students"
         ]
     },
     "2875231": {
@@ -9339,15 +9655,16 @@
             "wellness",
             "none_li",
             "social_media",
-            "mailing_list",
             "database",
+            "mailing_list",
             "surveys",
             "none_motivation",
             "individual",
             "AH",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "general_demographics"
         ]
     },
     "3010936": {
@@ -9375,8 +9692,8 @@
             "no",
             "wellness",
             "none_li",
-            "flyer",
             "social_media",
+            "flyer",
             "field_study",
             "interview",
             "social",
@@ -9384,7 +9701,8 @@
             "OzCHI",
             "none_expert",
             "none_theory",
-            "data_implications"
+            "data_implications",
+            "children"
         ]
     },
     "2858142": {
@@ -9403,25 +9721,26 @@
             "tracking"
         ],
         "tags": [
-            "artifact",
             "empirical",
-            "productivity",
+            "artifact",
             "food",
             "physical activity",
+            "productivity",
             "no",
             "wellness",
             "none_li",
             "social_media",
-            "recruitment_service",
             "mailing_list",
-            "field_study",
+            "recruitment_service",
             "surveys",
+            "field_study",
             "behavior_change",
             "individual",
             "CHI",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "general_demographics"
         ]
     },
     "2702213": {
@@ -9439,8 +9758,8 @@
             "patina"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "physical activity",
             "sleep",
             "no",
@@ -9455,7 +9774,8 @@
             "CHI",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "general_demographics"
         ]
     },
     "3176451": {
@@ -9489,7 +9809,8 @@
             "INTERACT",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "families"
         ]
     },
     "3174050": {
@@ -9511,23 +9832,27 @@
             "patient-generated health data"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "childcare",
             "yes",
             "health",
             "action",
             "unclear",
-            "participatory_design",
             "interview",
-            "social",
+            "participatory_design",
             "specific_goal",
+            "social",
             "family",
             "individual",
             "CHI",
             "participant",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "caregivers",
+            "clinicians",
+            "patients",
+            "families"
         ]
     },
     "3173796": {
@@ -9547,8 +9872,8 @@
             "tracking technology"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "mental",
             "yes",
             "health",
@@ -9556,13 +9881,14 @@
             "recruitment_service",
             "field_study",
             "interview",
-            "social",
             "specific_goal",
+            "social",
             "family",
             "CHI",
             "author",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "families"
         ]
     },
     "2702321": {
@@ -9587,19 +9913,20 @@
             "wellness",
             "reflection",
             "collection",
-            "flyer",
             "social_media",
+            "flyer",
             "special_interest_group",
-            "participatory_design",
-            "focus group",
             "surveys",
-            "behavior_change",
+            "focus group",
+            "participatory_design",
             "specific_goal",
+            "behavior_change",
             "individual",
             "CHI",
             "none_expert",
             "transtheoretical",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "smokers"
         ]
     },
     "3191769": {
@@ -9617,8 +9944,8 @@
             "wear-time"
         ],
         "tags": [
-            "theoretical",
             "empirical",
+            "theoretical",
             "physical activity",
             "no",
             "wellness",
@@ -9631,7 +9958,8 @@
             "Ubicomp",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "n/a"
         ]
     },
     "3264942": {
@@ -9652,8 +9980,8 @@
             "real-world study"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "food",
             "mental",
             "sleep",
@@ -9661,15 +9989,16 @@
             "neither",
             "none_li",
             "unclear",
+            "surveys",
             "field_study",
             "interview",
-            "surveys",
             "awareness",
             "individual",
             "Ubicomp",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "general_demographics"
         ]
     },
     "3026038": {
@@ -9687,23 +10016,24 @@
             "self-experimentation"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "sleep",
             "no",
             "wellness",
             "preparation",
             "none_recruitment",
-            "participatory_design",
-            "RCT",
             "field_study",
-            "behavior_change",
+            "RCT",
+            "participatory_design",
             "specific_goal",
+            "behavior_change",
             "individual",
             "CHI",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "general_demographics"
         ]
     },
     "2702307": {
@@ -9736,7 +10066,8 @@
             "CHI",
             "none_expert",
             "none_theory",
-            "data_implications"
+            "data_implications",
+            "workers"
         ]
     },
     "2896359": {
@@ -9753,21 +10084,22 @@
             "next eating event prediction"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "food",
             "no",
             "wellness",
             "none_li",
             "mailing_list",
-            "field_study",
             "surveys",
+            "field_study",
             "specific_goal",
             "individual",
             "DH",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "workers"
         ]
     },
     "2674122": {
@@ -9800,7 +10132,8 @@
             "PUC",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "n/a"
         ]
     },
     "3196830": {
@@ -9819,9 +10152,9 @@
             "persuasive technology"
         ],
         "tags": [
-            "theoretical",
             "survey",
-            "general",
+            "theoretical",
+            "general_tracking",
             "no",
             "neither",
             "none_li",
@@ -9831,9 +10164,10 @@
             "none_involved",
             "TOCHI",
             "none_expert",
-            "other behavior change theory",
             "goal-setting",
-            "none_privacy&ethics"
+            "other behavior change theory",
+            "none_privacy&ethics",
+            "n/a"
         ]
     },
     "2702311": {
@@ -9851,8 +10185,8 @@
             "sports technologies"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "physical activity",
             "no",
             "wellness",
@@ -9864,7 +10198,8 @@
             "CHI",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "athletes"
         ]
     },
     "2858352": {
@@ -9888,14 +10223,15 @@
             "wellness",
             "none_li",
             "unclear",
-            "observations",
             "interview",
+            "observations",
             "external_rewards",
             "individual",
             "CHI",
             "none_expert",
             "none_theory",
-            "data_sharing"
+            "data_sharing",
+            "workers"
         ]
     },
     "2809845": {
@@ -9918,9 +10254,9 @@
             "yes",
             "wellness",
             "collection",
-            "special_interest_group",
             "mailing_list",
             "snowball",
+            "special_interest_group",
             "interview",
             "specific_goal",
             "health_provider",
@@ -9928,7 +10264,9 @@
             "ASSETS",
             "participant",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "athletes",
+            "patients"
         ]
     },
     "3132543": {
@@ -9954,15 +10292,17 @@
             "none_li",
             "mailing_list",
             "snowball",
-            "observations",
-            "interview",
             "surveys",
+            "interview",
+            "observations",
             "specific_goal",
             "individual",
             "ASSETS",
             "participant",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "athletes",
+            "patients"
         ]
     },
     "3053332": {
@@ -9987,22 +10327,23 @@
             "wearables"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "physical activity",
             "no",
             "wellness",
             "none_li",
             "flyer",
-            "lab_study",
             "surveys",
-            "awareness",
+            "lab_study",
             "behavior_change",
+            "awareness",
             "individual",
             "Ubicomp",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "athletes"
         ]
     },
     "3236353": {
@@ -10019,25 +10360,27 @@
             "wheelchair basketball"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "physical activity",
             "no",
             "wellness",
             "reflection",
-            "collection",
             "action",
+            "collection",
             "preparation",
             "unclear",
             "field_study",
             "interview",
-            "awareness",
             "specific_goal",
+            "awareness",
             "individual",
             "ASSETS",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "athletes",
+            "patients"
         ]
     },
     "3026054": {
@@ -10055,8 +10398,8 @@
             "smoking cessation"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "smoking",
             "yes",
             "wellness",
@@ -10066,13 +10409,14 @@
             "flyer",
             "field_study",
             "interview",
-            "behavior_change",
             "specific_goal",
+            "behavior_change",
             "individual",
             "CHI",
             "consultant",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "smokers"
         ]
     },
     "2702482": {
@@ -10101,13 +10445,14 @@
             "action",
             "mailing_list",
             "interview",
-            "awareness",
             "specific_goal",
+            "awareness",
             "individual",
             "CHI",
             "participant",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "athletes"
         ]
     },
     "2702577": {
@@ -10124,16 +10469,16 @@
             "mobile health"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "physical activity",
             "no",
             "wellness",
             "reflection",
             "collection",
             "action",
-            "flyer",
             "snowball",
+            "flyer",
             "field_study",
             "interview",
             "behavior_change",
@@ -10142,7 +10487,8 @@
             "CHI",
             "none_expert",
             "self-determination",
-            "protection_measure"
+            "protection_measure",
+            "general_demographics"
         ]
     },
     "2940305": {
@@ -10161,8 +10507,8 @@
             "vulnerable people"
         ],
         "tags": [
-            "methodological",
             "empirical",
+            "methodological",
             "physical activity",
             "no",
             "both",
@@ -10174,7 +10520,8 @@
             "PDC",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "general_demographics"
         ]
     },
     "3173883": {
@@ -10211,7 +10558,8 @@
             "CHI",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "families"
         ]
     },
     "3130943": {
@@ -10231,22 +10579,23 @@
             "psychological states"
         ],
         "tags": [
-            "artifact",
             "empirical",
+            "artifact",
             "heartrate",
             "no",
             "both",
             "action",
             "mailing_list",
+            "surveys",
             "field_study",
             "interview",
-            "surveys",
             "social",
             "individual",
             "Ubicomp",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "general_demographics"
         ]
     },
     "3173895": {
@@ -10277,20 +10626,21 @@
             "reflection",
             "collection",
             "preparation",
-            "flyer",
             "mailing_list",
             "snowball",
+            "flyer",
+            "surveys",
             "field_study",
             "interview",
-            "surveys",
-            "awareness",
-            "behavior_change",
             "specific_goal",
+            "behavior_change",
+            "awareness",
             "individual",
             "CHI",
             "none_expert",
             "none_theory",
-            "none_privacy&ethics"
+            "none_privacy&ethics",
+            "patients"
         ]
     }
 }
