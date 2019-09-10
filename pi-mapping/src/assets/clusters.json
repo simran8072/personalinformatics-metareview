@@ -468,7 +468,7 @@
 		"data from online discussion groups":"public_data",
 		"analysis of advertisements":"public_data",
 		"app review study":"public_data",
-		"review of online interactive videos (probably closest to an app review study or similar)":["public_data", "video recordings"],
+		"review of online interactive videos (probably closest to an app review study or similar)":["literature_review"],
 		"amazon product review": "public_data",
 		"design activity":"participatory_design",
 		"research through design":"design",
