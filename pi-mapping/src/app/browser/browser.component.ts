@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import clusterMap from "../../assets/cluster_map.json";
+import renameMap from "../../assets/rename_map.json";
 import { PapersService } from '../papers.service';
 import { TagsService } from '../tags.service';
 
@@ -21,12 +22,13 @@ export class BrowserComponent implements OnInit {
   constructor(private papers:PapersService, private tags:TagsService) { }
 
   ngOnInit() {
-  	this.codes = Object.keys(clusterMap);
+  	this.codes = clusterMap.map(c => c['title']);
   	this.codes.forEach(c => {
-  		this.clusters[c] = clusterMap[c];
+      let cm = clusterMap.filter(m => c == m['title'])[0];
+  		this.clusters[c] = cm['clusters'];
   		this.checked[c] = {};
       this.hidden[c] = true;
-  		clusterMap[c].forEach(cm => {
+  		cm['clusters'].forEach(cm => {
   			let ids = this.tags.getIdsForTag(cm);
   			if(ids) {
   				this.counts[cm] = ids.length;
@@ -37,6 +39,22 @@ export class BrowserComponent implements OnInit {
   		this.clusters[c].sort((a, b) => this.counts[b] - this.counts[a]);
   	});
   	this.paperList = this.papers.getAllPapers();
+  }
+
+  getName(code:string) {
+    if(!(code in renameMap)) {
+      if(code.toLowerCase() != code) {
+        //There's probably something to preserve in the code's case
+        return code;
+      } else {
+        //Convert it to title case
+        return code.toLowerCase().split(' ').map((s) => s.charAt(0).toUpperCase() + s.substring(1)).join(' ');
+      }
+    } else if(renameMap[code]) {
+      return renameMap[code];
+    } else {
+      return null;
+    }
   }
 
   clear() {

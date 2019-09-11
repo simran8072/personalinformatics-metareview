@@ -4,6 +4,7 @@
 
 .checkbox > label {
 	margin: 0px;
+	display: inline;
 }
 
 .hidden {

@@ -3,10 +3,10 @@
 		<input type="text" [(ngModel)]="search" (ngModelChange)="searchFor()" placeholder="search...">
 		<button (click)="clear()">Clear</button>
 		<div *ngFor="let code of codes">
-			<strong>{{code}}</strong>
+			<strong *ngIf="getName(code)">{{getName(code)}}</strong>
 			<div *ngFor="let c of clusters[code]; let i=index">
-					<div *ngIf="counts[c]" class="checkbox" [ngClass]="{'hidden': i > 10 && hidden[code]}">
-						<input type="checkbox" [(ngModel)]="checked[code][c]" (ngModelChange)="check()" [name]="c" [id]="c"> <label [for]="c">{{c}} ({{counts[c]}})</label>
+					<div *ngIf="counts[c] && getName(c)" class="checkbox" [ngClass]="{'hidden': i > 10 && hidden[code]}">
+						<input type="checkbox" [(ngModel)]="checked[code][c]" (ngModelChange)="check()" [name]="c" [id]="c"> <label [for]="c">{{getName(c)}} ({{counts[c]}})</label>
 					</div>
 					<div *ngIf="i == 10">
 						<span class="show" (click)="toggleHide(code)">{{hidden[code] === true ? "> Show more" : "V Hide more"}}</span>
