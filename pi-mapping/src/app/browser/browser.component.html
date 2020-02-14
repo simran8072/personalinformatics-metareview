@@ -1,7 +1,15 @@
+<div class="container-fluid">
+
+	<div class="row search-box text-center">
+		<div class="col-12">
+				<input type="text" [(ngModel)]="search" (ngModelChange)="searchFor()" placeholder="search ...">
+				<button class="btn btn-dark" (click)="clear()">Clear</button>
+		</div>
+	</div>
 <div class="row">
+	
 	<div class="col-3">
-		<input type="text" [(ngModel)]="search" (ngModelChange)="searchFor()" placeholder="search...">
-		<button (click)="clear()">Clear</button>
+	
 		<div *ngFor="let code of codes">
 			<strong *ngIf="getName(code)">{{getName(code)}}</strong>
 			<div *ngFor="let c of clusters[code]; let i=index">
@@ -18,4 +26,6 @@
 		<strong>{{paperList.length}} matching papers</strong>
 		<app-paper *ngFor="let paper of paperList" [id]=paper></app-paper>
 	</div>
+</div>
+
 </div>
