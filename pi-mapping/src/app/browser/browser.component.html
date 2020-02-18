@@ -1,29 +1,44 @@
 <div class="container-fluid">
 
 	<div class="row search-box text-center">
-		<div class="col-12">
-				<input type="text" [(ngModel)]="search" (ngModelChange)="searchFor()" placeholder="search ...">
-				<button class="btn btn-dark" (click)="clear()">Clear</button>
+		<div class="col-12 input-group mb-3">
+				<input class="form-control" type="text" [(ngModel)]="search" (ngModelChange)="searchFor()" placeholder="Search Articles ..." aria-label="Recipient's username" aria-describedby="button-addon2">
+				<div class="input-group-append">
+				<button class="btn btn-outline-secondary" type="button" id="button-addon2" (click)="clear()">Clear</button>
+				</div>
 		</div>
 	</div>
 <div class="row">
 	
 	<div class="col-3">
-	
-		<div *ngFor="let code of codes">
-			<strong *ngIf="getName(code)">{{getName(code)}}</strong>
-			<div *ngFor="let c of clusters[code]; let i=index">
+
+			
+	<div class="dropdown">
+			<a class="btn btn-sm btn-primary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					More Options
+				  </a>
+
+				  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+						<a class="btn btn-sm btn-light" href="#"><p *ngFor="let code of codes">
+			<span *ngIf="getName(code)">{{getName(code)}}</span></p></a>
+					  </div>
+		<!-- <option *ngFor="let code of codes">
+			<strong *ngIf="getName(code)">{{getName(code)}}</strong> -->
+			<!-- <div *ngFor="let c of clusters[code]; let i=index">
 					<div *ngIf="counts[c] && getName(c)" class="checkbox" [ngClass]="{'hidden': i > 10 && hidden[code]}">
 						<input type="checkbox" [(ngModel)]="checked[code][c]" (ngModelChange)="check()" [name]="c" [id]="c"> <label [for]="c">{{getName(c)}} ({{counts[c]}})</label>
 					</div>
 					<div *ngIf="i == 10">
 						<span class="show" (click)="toggleHide(code)">{{hidden[code] === true ? "> Show more" : "V Hide more"}}</span>
 					</div>
-			</div>
-		</div>
+			</div> -->
+	
+	</div>
+
+	
 	</div>
 	<div class="col-9">
-		<strong>{{paperList.length}} matching papers</strong>
+		<strong id="paper-list">{{paperList.length}} matching papers</strong>
 		<app-paper *ngFor="let paper of paperList" [id]=paper></app-paper>
 	</div>
 </div>

@@ -1,7 +1,35 @@
 .logo{
-    margin-top: 10%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
 .logo img{
     width: 100%;
+}
+
+.navbar
+.navbar-light
+.bg-light{
+    background-color: white;
+}
+
+#nav-btns{
+    /* margin-right: 0; */
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 25rem;
+    padding-right: 0%;
+    /* justify-content: right;
+    float: right;
+    text-align: right;
+    display: block; */
+
+    /* display: inline-block; */
+}
+
+.nav-btns button{
+    /* justify-content: right;
+    position: absolute; */
+
+    float: right;
 }
