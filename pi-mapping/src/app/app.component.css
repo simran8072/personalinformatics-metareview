@@ -1,6 +1,7 @@
 .logo{
     margin-top: 3rem;
     margin-bottom: 3rem;
+    font-size: 55px;
 }
 
 .logo img{
@@ -15,9 +16,9 @@
 
 #nav-btns{
     /* margin-right: 0; */
-    padding-top: 1rem;
+    padding-top: 5rem;
     padding-bottom: 1rem;
-    padding-left: 25rem;
+    padding-left: 50%;
     padding-right: 0%;
     /* justify-content: right;
     float: right;
@@ -27,7 +28,8 @@
     /* display: inline-block; */
 }
 
-.nav-btns button{
+#nav-btns button{
+    margin-right: 5px;
     /* justify-content: right;
     position: absolute; */
 
